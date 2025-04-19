@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<body>
+    <div class="container-fluid custom-container mt-4">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-9 flex-column justify-content-center">
+                <h1 class="text-center text-white mb-3"><em>Uma mão estendida transforma vidas.</em></h1>
+
+                <h3 class="text-center text-white h3index">Quem somos?</h3>
+                <p class="text-justify text-white paragrafo-index">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend ante nec tempor tincidunt. Integer id 
+                    venenatis leo, vel volutpat est. Vestibulum malesuada auctor ultrices. Suspendisse potenti. Maecenas in risus 
+                    vitae tellus dictum cursus et a ante. Vivamus ut diam non libero consequat pretium non quis diam. Nam nulla leo, 
+                    volutpat quis vulputate non, commodo a orci. Curabitur elit mi, eleifend vitae lacinia ac, maximus consectetur massa.
+                    Suspendisse ut lobortis felis. Cras fermentum nunc ipsum, at volutpat elit auctor id. Suspendisse ipsum nulla, pharetra
+                    non lorem ac, commodo bibendum urna. Aliquam vitae nunc metus. Vivamus id lobortis lectus. Nam egestas suscipit egestas.
+                    Etiam vel hendrerit lorem. In bibendum lectus non molestie sollicitudin.
+                </p>
+
+                <h2 class="text-center text-white">Ficou com alguma dúvida? Contate-nos</h2>
+                <form>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div data-mdb-input-init class="form-outline flex-fill me-2">
+                            <label class="form-label" for="PrimeiroNome"></label>
+                            <input type="text" id="PrimeiroNome" name="PrimeiroNome" placeholder="Primeiro nome" class="form-control form-control-lg" />
+                        </div>
+
+                        <div data-mdb-input-init class="form-outline flex-fill ">
+                            <label for="EmailCad" class="form-label"></label>
+                            <input type="email" id="EmailCad" name="EmailCad" placeholder="Email" class="form-control form-control-lg" />
+                        </div>
+                    </div>
+
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="Mensagem"></label>
+                        <textarea id="Mensagem" name="Mensagem" class="form-control form-control-lg" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+                    </div>
+
+                    <div class="d-flex justify-content-center botaoIndex">
+                        <button type="submit" id="btnGeral"
+                                class="btn btn-block btn-lg text-body">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-3 mt-5">
+                <img src="~/assets/doacao1.png" alt="Imagem inicial" class="custom-img">
+            </div>
+        </div>
+    </div>
+</body>

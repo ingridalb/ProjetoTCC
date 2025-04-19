@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>@ViewData["Title"] - SiteDoacao</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap & Custom CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="/css/site.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column" style="min-height: 100vh;">
+    <header>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <!-- NAVBAR PARA USUÁRIO LOGADO -->
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center ml-auto">
+                        <span class="navbar-text ms-3 text-white fw-bold mao-solidaria">MÃO SOLIDÁRIA</span>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <!-- BARRA DE PESQUISA -->
+                        <form class="d-flex align-items-center mx-auto search-form" style="width: 40%;">
+                            <input class="form-control search-input" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                            <i class="bi bi-search search-icon"></i>
+                        </form>
+
+                        <!-- LISTAS NAVBAR -->
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white text-uppercase fw-bold" href="/Timeline">Timeline</a>
+                            </li>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white fw-bold" href="#">
+                                    <i class="bi bi-chat-dots-fill fs-5"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link text-white fw-bold text-uppercase d-flex align-items-center" href="/Logout">
+                                    <i class="bi bi-box-arrow-right me-1"></i> Sair
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        }
+        else
+        {
+            <!-- NAVBAR P/ NÃO LOGADO-->
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center ml-auto">
+                        <span class="navbar-text ms-3 text-white fw-bold mao-solidaria">MÃO SOLIDÁRIA</span>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-uppercase fw-bold text-white" href="/Index">Início</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-uppercase fw-bold text-white" href="/OqueDoar">O que doar?</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-uppercase fw-bold text-white" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                            </li>
+                            <li class="nav-item me-5">
+                                <a class="nav-link text-uppercase fw-bold text-white" href="#" data-bs-toggle="modal" data-bs-target="#cadastroModal">Cadastro</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        }
+    </header>
+
+    <div class="container flex-grow-1">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer id="footer" class="footer py-3 mt-auto termos">
+        <div class="container">
+            <p class="text-center mb-0 text-black">Termos de Política e Privacidade © Mão Solidária - 2025</p>
+        </div>
+    </footer>
+
+    <!--MODAL LOGIN-->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-custom-width">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="text-uppercase text-center mb-4">Login</h2>
+                    <form method="post" asp-controller="Account" asp-action="Login">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu email" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input type="password" id="senha" name="senha" class="form-control" placeholder="Insira sua senha" required />
+                        </div>
+
+                        <div class="mb-3 d-flex justify-content-between">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkLembrarDeMim" />
+                                <label class="form-check-label" for="checkLembrarDeMim">Lembrar de mim</label>
+                            </div>
+                            <a href="#!" class="link-geral">Esqueceu a senha?</a>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" id="btnGeral" class="btn">Entrar</button>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <span>Não tem uma conta?</span>
+                            <a href="#" class="link-geral" data-bs-toggle="modal" data-bs-target="#cadastroModal" data-bs-dismiss="modal">Cadastre-se</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL CADASTRO-->
+    <div class="modal fade" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-custom-width">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="text-uppercase text-center mb-4">Cadastro</h2>
+                    <form method="post" asp-controller="Account" asp-action="Cadastro">
+
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Insira seu nome" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="sobrenome" class="form-label">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome" class="form-control" placeholder="Insira seu sobrenome" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu email" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input type="password" id="senha" name="senha" class="form-control" placeholder="Insira sua senha" required />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="repetirSenha" class="form-label">Repetir Senha</label>
+                            <input type="password" id="repetirSenha" name="repetirSenha" class="form-control" placeholder="Repita sua senha" required />
+                        </div>
+
+                        <div class="mb-3 d-flex justify-content-center">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="termosServico" required />
+                                <label class="form-check-label" for="termosServico">
+                                    Eu concordo com os <a href="#!" class="link-geral">Termos de Serviço</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" id="btnGeral" class="btn btn-primary btn-lg">Cadastrar</button>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <span>Já possui uma conta?</span>
+                            <a href="#" class="link-geral" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Entrar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/scripts.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿@page
+@model MaoSolidaria.Pages.PaginaUser.ChatUserModel
+@{
+}
+<div id="chat-container" class="row">
+    <!-- LISTA DE USUÁRIOS -->
+    <div class="col-md-3 p-3 border-right col-pessoas">
+        <h4>Usuários</h4>
+
+        <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center contato" onclick="abrirConversa()">
+                <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" alt="Foto do usuário" class="rounded-circle" width="40" height="40">
+                <span class="ms-2">Nome e Sobrenome</span>
+            </li>
+        </ul>
+    </div>
+
+    <!--CONVERSA-->
+    <div class="col-md-9 p-3 col-chat">
+        <button class="btn btn-link text-dark d-md-none mb-2" onclick="voltarParaLista()">← Voltar para usuários</button>
+
+        <div class="chat-header d-flex align-items-center mb-3">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" alt="Foto de conversa" class="rounded-circle" width="40" height="40">
+            <span class="ms-2">Nome e Sobrenome</span>
+        </div>
+
+        <!-- CONVERSA -->
+        <div class="chat-box" style="height: 60vh; overflow-y: auto;">
+            <!-- MENSAGENS -->
+            <div class="message from-user mb-3">
+                <div class="d-flex justify-content-start">
+                    <div class="message-bubble p-2 bg-light rounded">
+                        Lorem ipsum dolor sit amet. Eum sequi aspernatur qui officia dolorem sit possimus 
+                        velit et reprehenderit praesentium aut ratione nobis cum velit quidem ea reprehenderit enim. 
+                        Ab molestiae rerum rem culpa perspiciatis et odio molestiae a consequatur modi. Qui quaerat 
+                        quidem non reiciendis pariatur qui consectetur internos quo optio quia aut aperiam atque ut 
+                        nemo laborum cum explicabo dolorem. Eos iure eaque qui dicta veniam qui deserunt nesciunt ad 
+                        veniam impedit nam quas nisi quo harum sint.
+                    </div>
+                </div>
+            </div>
+            <div class="message to-user mb-3">
+                <div class="d-flex justify-content-end">
+                    <div class="message-bubble p-2 bg-primary text-white rounded">
+                        Aut quidem quibusdam hic repellendus eveniet aut doloribus similique eos obcaecati dolor eum 
+                        voluptatum officiis id voluptatem similique ut deleniti sint! Ut molestiae laborum non numquam 
+                        galisum sed quisquam galisum id doloribus illum aut expedita magnam. Non harum fugiat et nesciunt 
+                        consequatur nam doloremque explicabo eum omnis nostrum.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INPUT PARA ENVIAR MENSAGEM -->
+        <div class="input-group mt-3">
+            <input type="text" class="form-control" id="message-input" placeholder="Digite sua mensagem..." aria-label="Mensagem" aria-describedby="botao-enviar">
+            <button class="btn btn-primary" type="button" id="botao-enviar">Enviar</button>
+        </div>
+    </div>
+</div>

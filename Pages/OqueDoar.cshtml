@@ -1,0 +1,231 @@
+﻿@page
+@model MaoSolidaria.Pages.OqueDoarModel
+@{
+}
+<div class="col-12 d-flex flex-column justify-content-center">
+    <h2 class="text-center mb-3 text-white fw-bold"><em>O que doar?</em></h2>
+</div>
+
+<div id="container-oquedoar" class="container mt-3">
+    <div class="row">
+        <!--ALIMENTOS E PRODUTOS DE HIGIENE-->
+        <div class="row justify-content-center g-2">
+            <div class="col-md-5 col-lg-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <img src="~/assets/OqueDoar-imgs/alimentos.jpg" class="card-img-top" alt="Alimentos">
+                    <div class="card-body">
+                        <h5 class="card-title">Alimentos não perecíveis</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-lg-4 mb-4">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal5">
+                    <img src="https://guiabhr.com.br/wp-content/uploads/2020/07/unnamed.jpg" class="card-img-top" alt="Produtos de Higiene">
+                    <div class="card-body">
+                        <h5 class="card-title">Produtos de higiene</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <!-- ROUPAS, ELETROS E MÓVEIS -->
+        <div class="col-md-4 col-lg-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#modal2">
+                <img src="~/assets/OqueDoar-imgs/roupas.jpg" class="card-img-top" alt="Roupas">
+                <div class="card-body">
+                    <h5 class="card-title">Roupas</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#modal3">
+                <img src="~/assets/OqueDoar-imgs/eletrodomesticos.jpg" class="card-img-top" alt="Eletrodomésticos">
+                <div class="card-body">
+                    <h5 class="card-title">Eletrodomésticos</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-lg-4 mb-4">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#modal4">
+                <img src="~/assets/OqueDoar-imgs/moveis.jpg" class="card-img-top" alt="Móveis">
+                <div class="card-body">
+                    <h5 class="card-title">Móveis</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row align-items-center mt-2">
+
+        <div class="col-md-7 mb-4">
+            <h4 class="text-white fw-bold">Por que doar?</h4>
+            <p class="text-white" style="text-align: justify;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
+                in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
+                lorem non sapien. Suspendisse potenti. Proin tincidunt magna ac lorem porttitor, sed tincidunt ligula
+                dapibus. Sed nec lorem nec magna iaculis rhoncus vitae at lorem. Nam cursus, neque vitae pulvinar
+                tristique, arcu sem fermentum neque, a rutrum leo lacus a lacus. Nullam a arcu et odio sollicitudin
+                scelerisque. Etiam malesuada vehicula turpis, in convallis ante porta a.
+            </p>
+        </div>
+       
+        <!--O QUE NÃO DOAR-->
+        <div class="col-md-5 col-lg-4 mb-4 justify-content-center">
+            <div class="card" data-bs-toggle="modal" data-bs-target="#modal6">
+                <img src="https://www.nutrimixassessoria.com.br/wp-content/uploads/2020/08/DOA%C3%87%C3%83O-DE-ALIMENTOS-POR-RESTAURANTES-LEI.jpg" class="card-img-top" alt="O que NÃO doar">
+                <div class="card-body">
+                    <h5 class="card-title">O que NÃO doar</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL ALIMENTOS-->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalAlimentos" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalAlimentos">ALIMENOS NÃO PERECÍVEIS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                    <li>Macarrão</li>
+                    <li>Óleo</li>
+                    <li>Café</li>
+                    <li>Açúcar</li>
+                    <li>Farinha de trigo</li>
+                    <li>Fubá</li>
+                    <li>Entre outros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL ROUPAS -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalRoupas" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel2">ROUPAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Blusas</li>
+                    <li>Casacos</li>
+                    <li>Vestidos</li>
+                    <li>Shorts e bermudas</li>
+                    <li>Calças</li>
+                    <li>Calçados</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL ELETRODOMÉSTICOS -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalEletros" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel3">ELETRODOMÉSTICOS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Geladeira</li>
+                    <li>Fogão</li>
+                    <li>Microondas</li>
+                    <li>Forno elétrico</li>
+                    <li>Máquina de lavar ou tanquinho</li>
+                    <li>Televisão</li>
+                    <li>Entre outros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL MOVEIS -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalMoveis" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel4">MÓVEIS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Sofá</li>
+                    <li>Cadeira</li>
+                    <li>Guarda-roupa</li>
+                    <li>Estante</li>
+                    <li>Escrivaninha</li>
+                    <li>Mesa</li>
+                    <li>Entre outros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL PRODUTOS DE HIGIENE-->
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modalHigiene" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalHigiene">PRODUTOS DE HIGIENE</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Sabonete</li>
+                    <li>Pasta de dente</li>
+                    <li>Desodoroante</li>
+                    <li>Absorvente</li>
+                    <li>Pasta de dente</li>
+                    <li>Shampoo e condicionador</li>
+                    <li>Entre outros</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--MODAL O QUE NÃO DOAR-->
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modalNaoDoar" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalNaoDoar">O QUE NÃO DOAR</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Alimentos abertos e/ou fora da validade</li>
+                    <li>Produtos de higiene abertos e/ou usados</li>
+                    <li>Roupas rasgadas, furadas e manchadas</li>
+                    <li>Roupas íntimas usadas</li>
+                    <li>Calçados rasgados e/ou sem condições de uso</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center mt-2 mb-3">
+    <button class="btn btn-block btn-lg text-body btn-voltar" id="btnGeral" onclick="window.history.back()">Voltar</button>
+</div>
