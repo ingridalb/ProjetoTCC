@@ -9,63 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MaoSolidaria
 build_property.RootNamespace = MaoSolidaria
-build_property.ProjectDir = C:\Users\gabri\source\repos\MaoSolidaria\
+build_property.ProjectDir = C:\Users\kamil\Documents\Projeto TCC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\source\repos\MaoSolidaria
+build_property.MSBuildProjectDirectory = C:\Users\kamil\Documents\Projeto TCC
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/Error.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/Index.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/OqueDoar.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/OqueDoar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3F1ZURvYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/PaginaUser/ChatUser.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/PaginaUser/ChatUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hVXNlclxDaGF0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/PaginaUser/PerfilUser.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/PaginaUser/PerfilUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hVXNlclxQZXJmaWxVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/PaginaUser/PostagensUser.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/PaginaUser/PostagensUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hVXNlclxQb3N0YWdlbnNVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/PaginaUser/TimelineUser.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/PaginaUser/TimelineUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hVXNlclxUaW1lbGluZVVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/Privacy.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/testecshtml.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/testecshtml.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdGVjc2h0bWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/_ViewImports.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/_ViewStart.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/source/repos/MaoSolidaria/Pages/Shared/_Layout.cshtml]
+[C:/Users/kamil/Documents/Projeto TCC/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k1tlg291yz
