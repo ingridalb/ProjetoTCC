@@ -1,5 +1,7 @@
 ﻿window.addEventListener('DOMContentLoaded', event => {
 
+    console.log("site.js carregado com sucesso");
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

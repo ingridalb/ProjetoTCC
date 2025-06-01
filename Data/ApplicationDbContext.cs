@@ -9,6 +9,5 @@ namespace MaoSolidaria.Data
             : base(options)
         {
         }
-
     }
 }

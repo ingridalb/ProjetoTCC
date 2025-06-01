@@ -85,10 +85,10 @@
                                 <a class="nav-link text-uppercase fw-bold text-white" href="/OqueDoar">O que doar?</a>
                             </li>
                             <li class="nav-item me-5">
-                                <a class="nav-link text-uppercase fw-bold text-white" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                                <a class="nav-link text-uppercase fw-bold text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
                             </li>
                             <li class="nav-item me-5">
-                                <a class="nav-link text-uppercase fw-bold text-white" href="#" data-bs-toggle="modal" data-bs-target="#cadastroModal">Cadastro</a>
+                                <a class="nav-link text-uppercase fw-bold text-white" asp-area="Identity" asp-page="/Account/Register">Cadastro</a>
                             </li>
                         </ul>
                     </div>
@@ -109,105 +109,10 @@
         </div>
     </footer>
 
-    <!--MODAL LOGIN-->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-custom-width">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="text-uppercase text-center mb-4">Login</h2>
-                    <form method="post" asp-controller="Account" asp-action="Login">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu email" required />
-                        </div>
+    <script src="@Url.Content("~/lib/jquery/dist/jquery.min.js")"></script>
+    <script src="@Url.Content("~/lib/bootstrap/dist/js/bootstrap.bundle.min.js")"></script>
+    <script src="@Url.Content("~/js/site.js")" asp-append-version="true"></script>
 
-                        <div class="mb-3">
-                            <label for="senha" class="form-label">Senha</label>
-                            <input type="password" id="senha" name="senha" class="form-control" placeholder="Insira sua senha" required />
-                        </div>
-
-                        <div class="mb-3 d-flex justify-content-between">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="checkLembrarDeMim" />
-                                <label class="form-check-label" for="checkLembrarDeMim">Lembrar de mim</label>
-                            </div>
-                            <a href="#!" class="link-geral">Esqueceu a senha?</a>
-                        </div>
-
-                        <div class="d-grid">
-                            <button type="submit" id="btnGeral" class="btn">Entrar</button>
-                        </div>
-
-                        <div class="text-center mt-3">
-                            <span>Não tem uma conta?</span>
-                            <a href="#" class="link-geral" data-bs-toggle="modal" data-bs-target="#cadastroModal" data-bs-dismiss="modal">Cadastre-se</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--MODAL CADASTRO-->
-    <div class="modal fade" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-custom-width">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="text-uppercase text-center mb-4">Cadastro</h2>
-                    <form method="post" asp-controller="Account" asp-action="Cadastro">
-
-                        <div class="mb-3">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Insira seu nome" required />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="sobrenome" class="form-label">Sobrenome</label>
-                            <input type="text" id="sobrenome" name="sobrenome" class="form-control" placeholder="Insira seu sobrenome" required />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu email" required />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="senha" class="form-label">Senha</label>
-                            <input type="password" id="senha" name="senha" class="form-control" placeholder="Insira sua senha" required />
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="repetirSenha" class="form-label">Repetir Senha</label>
-                            <input type="password" id="repetirSenha" name="repetirSenha" class="form-control" placeholder="Repita sua senha" required />
-                        </div>
-
-                        <div class="mb-3 d-flex justify-content-center">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="termosServico" required />
-                                <label class="form-check-label" for="termosServico">
-                                    Eu concordo com os <a href="#!" class="link-geral">Termos de Serviço</a>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="d-grid">
-                            <button type="submit" id="btnGeral" class="btn btn-primary btn-lg">Cadastrar</button>
-                        </div>
-
-                        <div class="text-center mt-3">
-                            <span>Já possui uma conta?</span>
-                            <a href="#" class="link-geral" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Entrar</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/scripts.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
