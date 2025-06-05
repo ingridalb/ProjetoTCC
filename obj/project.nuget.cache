@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2P+VJHON8eo=",
+  "dgSpecHash": "82mEpPr7a8U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Documents\\Projeto TCC\\MaoSolidaria.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Documents\\TCC\\MaoSolidaria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

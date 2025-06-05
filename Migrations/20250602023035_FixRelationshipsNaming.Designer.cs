@@ -4,6 +4,7 @@ using MaoSolidaria.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MaoSolidaria.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250602023035_FixRelationshipsNaming")]
+    partial class FixRelationshipsNaming
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,7 +32,7 @@ namespace MaoSolidaria.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("ConteudoMensagem")
+                    b.Property<string>("Conteudo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -76,11 +78,16 @@ namespace MaoSolidaria.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("UsuarioId1")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("PostagemId");
 
                     b.HasIndex("UsuarioId");
+
+                    b.HasIndex("UsuarioId1");
 
                     b.ToTable("Comentarios");
                 });
@@ -107,9 +114,14 @@ namespace MaoSolidaria.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("UsuarioId1")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("UsuarioId");
+
+                    b.HasIndex("UsuarioId1");
 
                     b.ToTable("Postagens");
                 });
@@ -329,13 +341,13 @@ namespace MaoSolidaria.Migrations
             modelBuilder.Entity("MaoSolidaria.Models.Chat", b =>
                 {
                     b.HasOne("MaoSolidaria.Models.Usuario", "Destinatario")
-                        .WithMany("ChatsRecebidos")
+                        .WithMany()
                         .HasForeignKey("DestinatarioId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("MaoSolidaria.Models.Usuario", "Remetente")
-                        .WithMany("ChatsEnviados")
+                        .WithMany()
                         .HasForeignKey("RemetenteId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -354,10 +366,14 @@ namespace MaoSolidaria.Migrations
                         .IsRequired();
 
                     b.HasOne("MaoSolidaria.Models.Usuario", "Usuario")
-                        .WithMany("Comentarios")
+                        .WithMany()
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("MaoSolidaria.Models.Usuario", null)
+                        .WithMany("Comentarios")
+                        .HasForeignKey("UsuarioId1");
 
                     b.Navigation("Postagem");
 
@@ -367,10 +383,14 @@ namespace MaoSolidaria.Migrations
             modelBuilder.Entity("MaoSolidaria.Models.Postagem", b =>
                 {
                     b.HasOne("MaoSolidaria.Models.Usuario", "Usuario")
-                        .WithMany("Postagens")
+                        .WithMany()
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("MaoSolidaria.Models.Usuario", null)
+                        .WithMany("Postagens")
+                        .HasForeignKey("UsuarioId1");
 
                     b.Navigation("Usuario");
                 });
@@ -433,10 +453,6 @@ namespace MaoSolidaria.Migrations
 
             modelBuilder.Entity("MaoSolidaria.Models.Usuario", b =>
                 {
-                    b.Navigation("ChatsEnviados");
-
-                    b.Navigation("ChatsRecebidos");
-
                     b.Navigation("Comentarios");
 
                     b.Navigation("Postagens");

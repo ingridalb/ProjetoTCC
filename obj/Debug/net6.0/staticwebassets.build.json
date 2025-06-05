@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BhQjy7D4lXvGO9Q7abcuF7e6P/zUsmt3dyMphGKleRI=",
+  "Hash": "41yfPE5JNDSiKdrsyOzugM+IYMx/Moe5z+Kl7eHqU9c=",
   "Source": "MaoSolidaria",
   "BasePath": "_content/MaoSolidaria",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "MaoSolidaria\\wwwroot",
       "Source": "MaoSolidaria",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.36\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "MaoSolidaria#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "P3gB3rova12HBwITDMf0dkWRPEtHtLOKzZuf4zQHLL4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css"
+      "OriginalItemSpec": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "MaoSolidaria#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "P3gB3rova12HBwITDMf0dkWRPEtHtLOKzZuf4zQHLL4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\doacao1.png",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\doacao1.png",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "assets/doacao1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\doacao1.png"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "assets/OqueDoar-imgs/alimentos#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "assets/OqueDoar-imgs/eletrodomesticos#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "assets/OqueDoar-imgs/moveis#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "assets/OqueDoar-imgs/roupas#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\css\\site.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\favicon.ico",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\js\\site.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2054,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2075,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2096,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2117,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2180,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2201,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2222,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2243,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2264,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2285,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2306,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2327,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2348,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2369,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2390,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2432,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2474,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2495,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2537,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2558,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2579,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2600,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2621,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2642,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2663,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MaoSolidaria",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
       "BasePath": "_content/MaoSolidaria",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2687,7 +2687,7 @@
   "Endpoints": [
     {
       "Route": "assets/doacao1.jhjy662foo.png",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\doacao1.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\doacao1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2708,7 +2708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2732,7 +2732,7 @@
     },
     {
       "Route": "assets/doacao1.png",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\doacao1.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\doacao1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2753,7 +2753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2769,7 +2769,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/alimentos.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2790,7 +2790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2806,7 +2806,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/alimentos.lq88k2wb5t.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\alimentos.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2827,7 +2827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2851,7 +2851,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/eletrodomesticos.60ll122lbx.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2872,7 +2872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2896,7 +2896,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/eletrodomesticos.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\eletrodomesticos.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2917,7 +2917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,7 +2933,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/moveis.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2954,7 +2954,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2970,7 +2970,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/moveis.tlwebkums2.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\moveis.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +2991,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3015,7 +3015,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/roupas.1u5zuhyi6h.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3036,7 +3036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3060,7 +3060,7 @@
     },
     {
       "Route": "assets/OqueDoar-imgs/roupas.jpg",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\assets\\OqueDoar-imgs\\roupas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3081,7 +3081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3097,7 +3097,7 @@
     },
     {
       "Route": "css/site.avi00ctv7g.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3118,7 +3118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3142,7 +3142,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3163,7 +3163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3179,7 +3179,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3200,7 +3200,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3224,7 +3224,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3245,7 +3245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5481,7 +5481,7 @@
     },
     {
       "Route": "js/site.jpii8qjime.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5502,7 +5502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 06:40:24 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5526,7 +5526,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5547,7 +5547,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 06:40:24 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5563,7 +5563,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.atzghm0bqc.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5584,7 +5584,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5608,7 +5608,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5629,7 +5629,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5645,7 +5645,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5666,7 +5666,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5690,7 +5690,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5711,7 +5711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5727,7 +5727,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.3hwd4o0gxn.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5748,7 +5748,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5772,7 +5772,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5793,7 +5793,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5809,7 +5809,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5830,7 +5830,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5854,7 +5854,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5875,7 +5875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5891,7 +5891,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5912,7 +5912,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5928,7 +5928,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5949,7 +5949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5973,7 +5973,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5994,7 +5994,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6010,7 +6010,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6031,7 +6031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6055,7 +6055,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6076,7 +6076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6100,7 +6100,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6121,7 +6121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6137,7 +6137,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6158,7 +6158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6182,7 +6182,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6203,7 +6203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6219,7 +6219,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6240,7 +6240,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6256,7 +6256,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6277,7 +6277,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6293,7 +6293,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6314,7 +6314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6338,7 +6338,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.iozrq755kq.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6359,7 +6359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6383,7 +6383,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6404,7 +6404,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6428,7 +6428,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6449,7 +6449,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6465,7 +6465,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6486,7 +6486,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6510,7 +6510,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6531,7 +6531,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6547,7 +6547,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6568,7 +6568,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6584,7 +6584,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6605,7 +6605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6629,7 +6629,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6650,7 +6650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6666,7 +6666,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6687,7 +6687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6711,7 +6711,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6732,7 +6732,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6748,7 +6748,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6769,7 +6769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6785,7 +6785,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6806,7 +6806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6830,7 +6830,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6851,7 +6851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6875,7 +6875,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6896,7 +6896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6912,7 +6912,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6933,7 +6933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6957,7 +6957,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6978,7 +6978,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6994,7 +6994,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7015,7 +7015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7031,7 +7031,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7052,7 +7052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7068,7 +7068,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7089,7 +7089,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7113,7 +7113,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7134,7 +7134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7158,7 +7158,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7179,7 +7179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7203,7 +7203,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7224,7 +7224,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7248,7 +7248,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7269,7 +7269,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7285,7 +7285,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7306,7 +7306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7330,7 +7330,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7351,7 +7351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7367,7 +7367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7388,7 +7388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7404,7 +7404,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7425,7 +7425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7441,7 +7441,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7462,7 +7462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7486,7 +7486,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7507,7 +7507,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7531,7 +7531,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7552,7 +7552,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7568,7 +7568,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7589,7 +7589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7613,7 +7613,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7634,7 +7634,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7650,7 +7650,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.ep7rc7lwnb.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7671,7 +7671,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7695,7 +7695,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7716,7 +7716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7732,7 +7732,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7753,7 +7753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7769,7 +7769,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7790,7 +7790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7814,7 +7814,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.lgugrnhx11.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7835,7 +7835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7859,7 +7859,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7880,7 +7880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7896,7 +7896,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7917,7 +7917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7941,7 +7941,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7962,7 +7962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7978,7 +7978,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.elu194lyyt.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7999,7 +7999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8023,7 +8023,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8044,7 +8044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8060,7 +8060,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8081,7 +8081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8105,7 +8105,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8126,7 +8126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8142,7 +8142,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8163,7 +8163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8187,7 +8187,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8208,7 +8208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8232,7 +8232,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8253,7 +8253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8277,7 +8277,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8298,7 +8298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8314,7 +8314,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8335,7 +8335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8359,7 +8359,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8380,7 +8380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8396,7 +8396,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8417,7 +8417,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8441,7 +8441,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8462,7 +8462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8478,7 +8478,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8499,7 +8499,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8523,7 +8523,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8544,7 +8544,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8560,7 +8560,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8581,7 +8581,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8597,7 +8597,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8618,7 +8618,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8642,7 +8642,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8663,7 +8663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8679,7 +8679,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8700,7 +8700,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8724,7 +8724,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8745,7 +8745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8761,7 +8761,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8782,7 +8782,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8798,7 +8798,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8819,7 +8819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8843,7 +8843,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8864,7 +8864,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8888,7 +8888,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8909,7 +8909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8925,7 +8925,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8946,7 +8946,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8970,7 +8970,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8991,7 +8991,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9007,7 +9007,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9028,7 +9028,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9052,7 +9052,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9073,7 +9073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9089,7 +9089,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9110,7 +9110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9126,7 +9126,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9147,7 +9147,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9171,7 +9171,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9192,7 +9192,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9208,7 +9208,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9229,7 +9229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9253,7 +9253,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9274,7 +9274,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9290,7 +9290,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dsw5v3fbc5.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9311,7 +9311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9335,7 +9335,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9356,7 +9356,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9372,7 +9372,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9393,7 +9393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9409,7 +9409,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.rm8d4uw1xt.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9430,7 +9430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9454,7 +9454,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9475,7 +9475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9499,7 +9499,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.afgyafcsqt.txt",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9520,7 +9520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9544,7 +9544,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9565,7 +9565,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9581,7 +9581,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9602,7 +9602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9626,7 +9626,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9647,7 +9647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9663,7 +9663,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9684,7 +9684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9708,7 +9708,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9729,7 +9729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9745,7 +9745,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9766,7 +9766,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9790,7 +9790,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9811,7 +9811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9827,7 +9827,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9848,7 +9848,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9864,7 +9864,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9885,7 +9885,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9909,7 +9909,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9930,7 +9930,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9946,7 +9946,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9967,7 +9967,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9991,7 +9991,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.dvc2bfcndg.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10012,7 +10012,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10036,7 +10036,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10057,7 +10057,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10073,7 +10073,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10094,7 +10094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10110,7 +10110,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.mt9h37ga6s.js",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10131,7 +10131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10155,7 +10155,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10176,7 +10176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10192,7 +10192,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.wqejeusuyq.txt",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10213,7 +10213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10237,7 +10237,7 @@
     },
     {
       "Route": "MaoSolidaria.bundle.scp.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10258,7 +10258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10274,7 +10274,7 @@
     },
     {
       "Route": "MaoSolidaria.hgjpxyxj50.bundle.scp.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MaoSolidaria.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10295,7 +10295,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10319,7 +10319,7 @@
     },
     {
       "Route": "MaoSolidaria.hgjpxyxj50.styles.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10340,7 +10340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10364,7 +10364,7 @@
     },
     {
       "Route": "MaoSolidaria.styles.css",
-      "AssetFile": "C:\\Users\\kamil\\Documents\\Projeto TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MaoSolidaria.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10385,7 +10385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 03:05:13 GMT"
+          "Value": "Mon, 02 Jun 2025 01:28:19 GMT"
         },
         {
           "Name": "Cache-Control",
