@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MaoSolidaria.Data;
+using MaoSolidaria.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Configura��o do banco de dados
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<MaoSolidariaIdentityDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
-// Configura��o do Identity
+// Configuração do Identity usando seu contexto personalizado
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
 })
-.AddEntityFrameworkStores<ApplicationDbContext>();
+.AddEntityFrameworkStores<MaoSolidariaIdentityDbContext>(); // Usar seu contexto personalizado
 
 // Adiciona suporte a Razor Pages
 builder.Services.AddRazorPages();
@@ -35,7 +37,7 @@ app.MapRazorPages();
 
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<MaoSolidariaIdentityDbContext>();
     dbContext.Database.EnsureCreated();
 }
 

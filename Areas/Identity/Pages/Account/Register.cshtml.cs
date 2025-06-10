@@ -70,12 +70,15 @@ namespace MaoSolidaria.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+            [Required(ErrorMessage = "Campo obrigatório.")] //NOME COMPLETO ADICIONADO 
+            [Display(Name = "Nome Completo")]
+            public string NomeCompleto { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Required]
-            [EmailAddress]
+            [Required(ErrorMessage = "Campo obrigatório.")]
+            [EmailAddress(ErrorMessage = "Por favor, insira um email válido.")]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
@@ -84,7 +87,7 @@ namespace MaoSolidaria.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "O campo {0} deve ter pelo menos {2} e no máximo {1} caracteres.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
             public string Password { get; set; }
@@ -95,8 +98,12 @@ namespace MaoSolidaria.Areas.Identity.Pages.Account
             /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Compare("Password", ErrorMessage = "As senhas não são iguais.")]
             public string ConfirmPassword { get; set; }
+
+            [Display(Name = "Eu concordo com os Termos de Serviço")] //ACEITOU TERMOS ADICIONADO
+            [Range(typeof(bool), "true", "true", ErrorMessage = "Você deve aceitar os termos de serviço.")]
+            public bool AceitouTermos { get; set; }
         }
 
 
