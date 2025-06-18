@@ -5,16 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MaoSolidaria.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<Usuario>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> opt) : base(opt) { }
 
         public DbSet<Postagem> Postagens { get; set; }
-        public DbSet<Comentario> Comentarios { get; set; }
         public DbSet<Chat> Chats { get; set; }
+        public DbSet<Comentario> Comentarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

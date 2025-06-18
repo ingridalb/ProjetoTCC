@@ -1,0 +1,36 @@
+﻿@page
+@model MaoSolidaria.Pages.Chats.IndexModel
+@{
+    ViewData["Title"] = "Mensagens";
+}
+
+<h2>Mensagens</h2>
+
+<a asp-page="Create" class="btn btn-success mb-3">Nova Mensagem</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Origem</th>
+            <th>Destino</th>
+            <th>Mensagem</th>
+            <th>Data</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Mensagens)
+        {
+            <tr>
+                <td>@item.RemetenteId</td>
+                <td>@item.DestinatarioId</td>
+                <td>@item.ConteudoMensagem</td>
+                <td>@item.DataEnvio.ToString("g")</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

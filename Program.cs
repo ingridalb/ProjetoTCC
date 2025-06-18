@@ -1,23 +1,28 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MaoSolidaria.Data;
-using MaoSolidaria.Areas.Identity.Data;
+using MaoSolidaria.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Configura��o do banco de dados
-builder.Services.AddDbContext<MaoSolidariaIdentityDbContext>(options =>
+// Configuração do banco de dados e Identity com ApplicationUser
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Configuração do Identity usando seu contexto personalizado
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
-})
-.AddEntityFrameworkStores<MaoSolidariaIdentityDbContext>(); // Usar seu contexto personalizado
 
-// Adiciona suporte a Razor Pages
+    // Permitir senhas mais simples
+    options.Password.RequireDigit = false;                // Não exige número
+    options.Password.RequiredLength = 6;                  // Pelo menos 6 caracteres
+    options.Password.RequireNonAlphanumeric = false;      // Não exige símbolo especial
+    options.Password.RequireUppercase = false;            // Não exige letra maiúscula
+    options.Password.RequireLowercase = false;            // Não exige letra minúscula
+})
+.AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -31,14 +36,18 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
 app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapRazorPages();
 
+// Garante que o banco é criado
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<MaoSolidariaIdentityDbContext>();
-    dbContext.Database.EnsureCreated();
+    var services = scope.ServiceProvider;
+    var db = services.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
 }
 
 app.Run();

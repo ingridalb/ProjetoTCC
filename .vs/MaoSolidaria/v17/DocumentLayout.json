@@ -3,32 +3,180 @@
   "WorkspaceRootPath": "C:\\Users\\kamil\\Documents\\TCC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\postagensuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\postagensuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\perfiluser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\perfiluser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\postagensuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\postagensuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\perfiluser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\perfiluser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\timelineuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\timelineuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\chatuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\chatuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\timelineuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\timelineuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\chatuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\paginauser\\chatuser.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\migrations\\20250614030853_primeiramigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:migrations\\20250614030853_primeiramigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\postagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\postagens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\chats\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\chats\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,34 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\postagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:models\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -85,6 +205,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_layoutlogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Shared\\_layoutlogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\_ViewImports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Postagens\\_ViewImports.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,6 +235,242 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "PostagensUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PostagensUser.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\PostagensUser.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PostagensUser.cshtml",
+              "RelativeToolTip": "Pages\\PaginaUser\\PostagensUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:56:45.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Postagens\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T04:20:34.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Postagens\\Create.cshtml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:22:20.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostagensUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PostagensUser.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\PostagensUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PostagensUser.cshtml.cs",
+              "RelativeToolTip": "Pages\\PaginaUser\\PostagensUser.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T03:55:42.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PerfilUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PerfilUser.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\PerfilUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PerfilUser.cshtml.cs",
+              "RelativeToolTip": "Pages\\PaginaUser\\PerfilUser.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:46:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:36:25.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Postagem.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Postagem.cs",
+              "RelativeDocumentMoniker": "Models\\Postagem.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Postagem.cs",
+              "RelativeToolTip": "Models\\Postagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:34:33.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PerfilUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PerfilUser.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\PerfilUser.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\PerfilUser.cshtml",
+              "RelativeToolTip": "Pages\\PaginaUser\\PerfilUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T05:47:17.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TimelineUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\TimelineUser.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\TimelineUser.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\TimelineUser.cshtml",
+              "RelativeToolTip": "Pages\\PaginaUser\\TimelineUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T04:34:01.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\ChatUser.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\ChatUser.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\ChatUser.cshtml",
+              "RelativeToolTip": "Pages\\PaginaUser\\ChatUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T04:20:51.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Postagens\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T04:21:23.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Postagens\\Delete.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:25:37.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:17:05.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T07:05:26.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:15:43.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T20:19:22.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:38:49.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:32:11.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:23:28.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -122,7 +482,283 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:33:10.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TimelineUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\TimelineUser.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\TimelineUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\TimelineUser.cshtml.cs",
+              "RelativeToolTip": "Pages\\PaginaUser\\TimelineUser.cshtml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:31:35.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Chat.cs",
+              "RelativeDocumentMoniker": "Models\\Chat.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Chat.cs",
+              "RelativeToolTip": "Models\\Chat.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:35:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\ChatUser.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PaginaUser\\ChatUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\PaginaUser\\ChatUser.cshtml.cs",
+              "RelativeToolTip": "Pages\\PaginaUser\\ChatUser.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:20:21.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T03:18:26.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250614030853_PrimeiraMigracao.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Migrations\\20250614030853_PrimeiraMigracao.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250614030853_PrimeiraMigracao.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Migrations\\20250614030853_PrimeiraMigracao.cs",
+              "RelativeToolTip": "Migrations\\20250614030853_PrimeiraMigracao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T03:08:53.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Postagens\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:23:09.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Postagens\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:25:07.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T02:48:44.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:05:51.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:07:17.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Postagens\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T04:20:54.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Postagens\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T04:20:10.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Chats\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T01:01:58.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Chats\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T01:02:19.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Chats\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:04:35.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Chats\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:06:38.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Chats\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T01:02:36.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Chats\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:07:09.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Chats\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T01:02:55.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Chats\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Chats\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Chats\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:03:56.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Comentario.cs",
+              "RelativeDocumentMoniker": "Models\\Comentario.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Comentario.cs",
+              "RelativeToolTip": "Models\\Comentario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:35:15.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewImports.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\_ViewImports.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Postagens\\_ViewImports.cshtml.cs",
+              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Postagens\\_ViewImports.cshtml.cs",
+              "RelativeToolTip": "Pages\\Postagens\\_ViewImports.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T04:32:36.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -134,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 44,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -146,31 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAYwLoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:17:05.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:15:43.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 42,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -182,32 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T07:05:26.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAArwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:33:10.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 43,
               "Title": "ResendEmailConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
@@ -219,79 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Chat.cs",
-              "RelativeDocumentMoniker": "Models\\Chat.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Chat.cs",
-              "RelativeToolTip": "Models\\Chat.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:35:48.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Comentario.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Comentario.cs",
-              "RelativeDocumentMoniker": "Models\\Comentario.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Comentario.cs",
-              "RelativeToolTip": "Models\\Comentario.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:35:15.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Postagem.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Postagem.cs",
-              "RelativeDocumentMoniker": "Models\\Postagem.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Postagem.cs",
-              "RelativeToolTip": "Models\\Postagem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:34:33.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:32:11.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T20:19:22.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:36:25.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 46,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -303,19 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T19:23:28.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 47,
               "Title": "_layoutlogin.cshtml",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_layoutlogin.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_layoutlogin.cshtml",
@@ -327,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 48,
               "Title": "_layoutregister.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_layoutregister.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Shared\\_layoutregister.cshtml.cs",
@@ -339,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 49,
               "Title": "_layoutregister.cshtml",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_layoutregister.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_layoutregister.cshtml",
@@ -351,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 50,
               "Title": "_layoutlogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Pages\\Shared\\_layoutlogin.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Shared\\_layoutlogin.cshtml.cs",

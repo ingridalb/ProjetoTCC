@@ -2,176 +2,156 @@
 @model MaoSolidaria.Pages.PaginaUser.PostagensUserModel
 @{
 }
+
 <div id="main-content" class="container-fluid">
     <div class="row h-100">
-        <!--USUÁRIO-->
+
+        <!-- USUÁRIO -->
         <div id="user-photo-section" class="col-md-2 d-flex flex-column align-items-center justify-content-center mb-0">
-            <img id="perfil-imagem" class="rounded-circle mb-3" width="150px" src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" alt="Imagem do usuário">
-            <h2 class="text-white text-center" id="user-name">Nome do usuário</h2>
-            <p class="text-white" id="user-email">usuario@gmail.com</p>
-            <p class="text-white" id="user-phone">(XX) XXXXX-XXXX</p>
+            <h2 class="text-white text-center" id="user-name">@Model.UsuarioLogado.NomeCompleto</h2>
+            <p class="text-white" id="user-email">@Model.UsuarioLogado.Email</p>
+            <p class="text-white" id="user-phone">@Model.UsuarioLogado.PhoneNumber</p>
+
+            <img id="perfil-imagem" class="rounded-circle mb-3" width="150px"
+                 src="@(Model.UsuarioLogado.CaminhoImagem ?? "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg")"
+                 alt="Imagem do usuário">
 
             <a asp-page="/PerfilUser/PerfilUser" class="btn text-black" id="btnGeral">Editar Perfil</a>
         </div>
 
-        <!--TIMELINE-->
+        <!-- TIMELINE -->
         <div id="timeline-section" class="col-md-10 p-4 overflow-auto mt-3 mt-md-0">
             <div class="position-relative mb-4">
-                
                 <div class="position-absolute start-0">
-                    <a href="/PaginaUser/TimelineUser" class="text-decoration-none fs-4">&larr; Voltar</a>
+                    <a asp-page="/PaginaUser/TimelineUser" class="text-decoration-none fs-4">&larr; Voltar</a>
                 </div>
 
-                
                 <div class="d-flex justify-content-center">
                     <a href="#" class="timeline-link me-3" data-bs-toggle="modal" data-bs-target="#novaPostagemModal">Nova Postagem</a>
                 </div>
             </div>
 
-            <!--EXEMPLO-->
-            <div class="postagem mb-4 p-3 custom-postagem">
-                <div class="d-flex align-items-center mb-2 custom-header">
-                    <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" class="rounded-circle me-3" width="50" height="50" alt="Usuário">
-                    <div>
-                        <h6 class="mb-0 custom-name">Maria Silva</h6>
-                        <small class="text-muted custom-date">12 de abril de 2025 às 14:30</small>
-                    </div>
-                </div>
-
-                <p class="mb-3 custom-text">
-                    Lorem ipsum dolor sit amet. Ex illo consectetur aut inventore sint sed ullam nisi.
-                    Sit facere voluptatem sed nobis tempore eum repellendus quibusdam in facere quia ea obcaecati adipisci
-                    eum enim esse rem earum magnam.
-                </p>
-
-                <img src="https://www.pontotel.com.br/local/wp-content/uploads/2022/05/imagem-corporativa.webp" class="img-fluid rounded" alt="Imagem da postagem">
-
-                <div class="d-flex align-items-center mt-3 gap-4">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#comentariosModal" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Comentários</span>
-                        <i class="bi bi-chat-left-text" style="font-size: 1.2rem; color: #007bff;"></i>
-                    </a>
-
-                    <a href="#" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Editar</span>
-                        <i class="bi bi-pencil-square" style="font-size: 1.2rem; color: #007bff;"></i>
-                    </a>
-
-                    <a href="#" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Excluir</span>
-                        <i class="bi bi-trash" style="font-size: 1.2rem; color: #dc3545;"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="postagem mb-4 p-3 custom-postagem">
-                <div class="d-flex align-items-center mb-2 custom-header">
-                    <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" class="rounded-circle me-3" width="50" height="50" alt="Usuário">
-                    <div>
-                        <h6 class="mb-0 custom-name">Maria Silva</h6>
-                        <small class="text-muted custom-date">12 de abril de 2025 às 14:30</small>
-                    </div>
-                </div>
-
-                <p class="mb-3 custom-text">
-                    Lorem ipsum dolor sit amet. Ex illo consectetur aut inventore sint sed ullam nisi.
-                    Sit facere voluptatem sed nobis tempore eum repellendus quibusdam in facere quia ea obcaecati adipisci
-                    eum enim esse rem earum magnam.
-                </p>
-
-                <img src="https://www.pontotel.com.br/local/wp-content/uploads/2022/05/imagem-corporativa.webp" class="img-fluid rounded" alt="Imagem da postagem">
-
-                <div class="d-flex align-items-center mt-3 gap-4">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#comentariosModal" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Comentários</span>
-                        <i class="bi bi-chat-left-text" style="font-size: 1.2rem; color: #007bff;"></i>
-                    </a>
-
-                    <a href="#" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Editar</span>
-                        <i class="bi bi-pencil-square" style="font-size: 1.2rem; color: #007bff;"></i>
-                    </a>
-
-                    <a href="#" class="d-flex align-items-center text-decoration-none">
-                        <span class="postagem-text-icon me-2">Excluir</span>
-                        <i class="bi bi-trash" style="font-size: 1.2rem; color: #dc3545;"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!--MODAL DE COMENTÁRIO-->
-            <div class="modal fade" id="comentariosModal" tabindex="-1" aria-labelledby="comentariosModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg">
+            <!-- MODAL EDITAR POSTAGEM -->
+            <div class="modal fade" id="editarPostagemModal" tabindex="-1" aria-labelledby="editarPostagemModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header justify-content-center">
-                            <h5 class="modal-title" id="comentariosModalLabel">Comentários</h5>
+                        <form method="post" asp-page-handler="Editar">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="editarPostagemModalLabel">Editar Postagem</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <input type="hidden" name="PostagemEditada.Id" id="editar-id" />
+                                <div class="mb-3">
+                                    <label for="editar-texto" class="form-label">Texto</label>
+                                    <textarea id="editar-texto" name="PostagemEditada.Texto" class="form-control" rows="4" required></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="editar-caminhoImagem" class="form-label">URL da Imagem</label>
+                                    <input type="text" id="editar-caminhoImagem" name="PostagemEditada.CaminhoImagem" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="submit" class="btn text-white" id="btnGeral">Salvar Alterações</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.Postagens != null && Model.Postagens.Any())
+            {
+                @foreach (var postagem in Model.Postagens)
+                {
+                    <div class="postagem mb-4 p-3 custom-postagem">
+                        <div class="d-flex align-items-center mb-2 custom-header">
+                            <img src="@(postagem.Usuario?.CaminhoImagem ?? "https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg")"
+                                 class="rounded-circle me-3" width="50" height="50" alt="Usuário">
+                            <div>
+                                <h6 class="mb-0 custom-name">@postagem.Usuario?.NomeCompleto</h6>
+                                <small class="text-muted custom-date">@postagem.DataCriacao.ToString("dd 'de' MMMM 'de' yyyy 'às' HH:mm")</small>
+                            </div>
+                        </div>
+
+                        <p class="mb-3 custom-text">@postagem.Texto</p>
+
+                        @if (!string.IsNullOrEmpty(postagem.CaminhoImagem))
+                        {
+                            <img src="@postagem.CaminhoImagem" class="img-fluid rounded" alt="Imagem da postagem">
+                        }
+
+                        <div class="d-flex align-items-center mt-3 gap-4">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#comentariosModal" class="d-flex align-items-center text-decoration-none">
+                                <span class="postagem-text-icon me-2">Comentários</span>
+                                <i class="bi bi-chat-left-text" style="font-size: 1.2rem; color: #007bff;"></i>
+                            </a>
+
+                            <a href="#"
+                               class="d-flex align-items-center text-decoration-none"
+                               data-bs-toggle="modal"
+                               data-bs-target="#editarPostagemModal"
+                               onclick="preencherModalEditar('@postagem.Id', `@postagem.Texto`, '@postagem.CaminhoImagem')">
+                                <span class="postagem-text-icon me-2">Editar</span>
+                                <i class="bi bi-pencil-square" style="font-size: 1.2rem; color: #007bff;"></i>
+                            </a>
+
+                            <a asp-page="/Postagens/Delete"
+                               asp-route-id="@postagem.Id"
+                               class="d-flex align-items-center text-decoration-none">
+                                <span class="postagem-text-icon me-2">Excluir</span>
+                                <i class="bi bi-trash" style="font-size: 1.2rem; color: #dc3545;"></i>
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-center text-muted">Você ainda não fez nenhuma postagem.</p>
+            }
+
+        </div>
+
+        <!-- MODAL NOVA POSTAGEM -->
+        <div class="modal fade" id="novaPostagemModal" tabindex="-1" aria-labelledby="novaPostagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form method="post" enctype="multipart/form-data" asp-page-handler="Criar">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="novaPostagemModalLabel">Nova Postagem</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
                         <div class="modal-body">
-                            <div class="comment mb-3">
-                                <div class="d-flex align-items-center mb-2">
-                                    <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" class="rounded-circle me-3" width="40" height="40" alt="Usuário">
-                                    <div>
-                                        <h4 class="mb-0">Maria Silva</h4>
-                                        <small class="text-muted">12 de abril de 2025 às 14:30</small>
-                                    </div>
-                                </div>
-                                <p class="comment-text mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
-                                    in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                    cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
-                                    lorem non sapien. Suspendisse potenti.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
-                                    in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                    cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
-                                    lorem non sapien. Suspendisse potenti.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
-                                    in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                    cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
-                                    lorem non sapien. Suspendisse potenti.
-                                    lorem non sapien. Suspendisse potenti.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
-                                    in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                    cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
-                                    lorem non sapien. Suspendisse potenti.
-                                </p>
+                            <div class="mb-3">
+                                <label for="novo-texto" class="form-label">Texto</label>
+                                <textarea id="novo-texto" name="NovaPostagem.Texto" class="form-control" rows="4" required></textarea>
                             </div>
-
-                            <div class="comment mb-3">
-                                <div class="d-flex align-items-center mb-2">
-                                    <img src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" class="rounded-circle me-3" width="40" height="40" alt="Usuário">
-                                    <div>
-                                        <h4 class="mb-0">João Souza</h4>
-                                        <small class="text-muted">12 de abril de 2025 às 15:00</small>
-                                    </div>
-                                </div>
-                                <p class="comment-text mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis risus nec nisl malesuada,
-                                    in lobortis eros commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                    cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                    egestas. Integer facilisis, sapien ut suscipit luctus, libero risus porta sapien, vel dapibus augue
-                                    lorem non sapien. Suspendisse potenti.
-                                </p>
-                            </div>
-
-                            <div class="mt-3">
-                                <label for="comment-input" class="form-label fw-bold">Comentário</label>
-                                <textarea class="form-control" id="comment-input" rows="3" placeholder="Escreva seu comentário..."></textarea>
-
-                                <div class="d-flex justify-content-end mt-2">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                                    <button type="button" class="btn text-black ms-2" id="btnGeral">Enviar</button>
-                                </div>
+                            <div class="mb-3">
+                                <label for="nova-imagem" class="form-label">Imagem</label>
+                                <input type="file" id="nova-imagem" name="Imagem" class="form-control" accept="image/*">
                             </div>
                         </div>
-                    </div>
+
+                        <div class="modal-footer">
+                            <button type="submit" class="btn text-white" id="btnGeral">Publicar</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
-<script src="js/site.js"></script>
+
+<script>
+    function preencherModalEditar(id, texto, imagemUrl) {
+        document.getElementById('editar-id').value = id;
+        document.getElementById('editar-texto').value = texto;
+        document.getElementById('editar-caminhoImagem').value = imagemUrl;
+    }
+</script>

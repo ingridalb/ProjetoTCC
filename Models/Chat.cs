@@ -12,9 +12,9 @@ namespace MaoSolidaria.Models
         public string DestinatarioId { get; set; }
 
         [ForeignKey("RemetenteId")]
-        public virtual Usuario Remetente { get; set; }
+        public virtual ApplicationUser Remetente { get; set; }
 
         [ForeignKey("DestinatarioId")]
-        public virtual Usuario Destinatario { get; set; }
+        public virtual ApplicationUser Destinatario { get; set; }
     }
 }

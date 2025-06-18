@@ -1,5 +1,5 @@
 ﻿@page
-@model RegisterModel
+@model MaoSolidaria.Areas.Identity.Pages.Account.RegisterModel
 @{
     ViewData["Title"] = "Register";
 }
@@ -12,8 +12,9 @@
                             <div class="card-body p-5 mb-3"> 
                                 <h2 class="text-uppercase text-center mb-4 uppercaseUser">Crie uma conta</h2>
 
-                            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post"> 
-                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <form id="registerForm" method="post" asp-route-returnUrl="@Model.ReturnUrl">
+                                <input type="hidden" asp-for="ReturnUrl" value="@Model.ReturnUrl ?? "~/" />
+                                <div asp-validation-summary="All" class="text-danger mb-3"></div>
                                     <div class="form-outline mb-4"> <!--NOME COMPLETO-->
                                         <label asp-for="Input.NomeCompleto" class="form-label">Insira seu nome completo</label>
                                         <input asp-for="Input.NomeCompleto" class="form-control" autocomplete="username" aria-required="true" />
@@ -34,14 +35,16 @@
                                         <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
                                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                                     </div>
-                                    <div>
-                                        <div class="form-check mb-3">
-                                            <input asp-for="Input.AceitouTermos" class="form-check-input" />
-                                            <label asp-for="Input.AceitouTermos" class="form-check-label">
-                                                Eu concordo com os <a href="/termos" target="_blank">Termos de Serviço</a>
-                                            </label>
-                                            <span asp-validation-for="Input.AceitouTermos" class="text-danger"></span>
-                                        </div>
+                                    
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input"
+                                               type="checkbox"
+                                               id="Input_AceitouTermos"
+                                        asp-for="Input.AceitouTermos" />
+                                        <label class="form-check-label" for="Input_AceitouTermos">
+                                            Eu concordo com os <a href="#">Termos de Serviço</a>
+                                        </label>
+                                        <span asp-validation-for="Input.AceitouTermos" class="text-danger"></span>
                                     </div>
 
                                     <div class="d-grid mt-3">

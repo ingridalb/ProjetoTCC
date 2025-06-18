@@ -10,6 +10,6 @@ namespace MaoSolidaria.Models
         public int PostagemId { get; set; }
         public virtual Postagem Postagem { get; set; }
         public string UsuarioId { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public virtual ApplicationUser Usuario { get; set; }
     }
 }

@@ -33,6 +33,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\4d18c5a9-f478-401d-be50-c44bfb2bd8f2.png",
+      "PackagePath": "staticwebassets\\img\\usuarios\\4d18c5a9-f478-401d-be50-c44bfb2bd8f2.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\5b08d367-e652-4e75-ab20-034e79ef628f.png",
+      "PackagePath": "staticwebassets\\img\\usuarios\\5b08d367-e652-4e75-ab20-034e79ef628f.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\80fee15e-3846-4687-a187-f9a21f7d17df.png",
+      "PackagePath": "staticwebassets\\img\\usuarios\\80fee15e-3846-4687-a187-f9a21f7d17df.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\fddadaed-365c-4157-a31f-f249d92e3897.png",
+      "PackagePath": "staticwebassets\\img\\usuarios\\fddadaed-365c-4157-a31f-f249d92e3897.png"
+    },
+    {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

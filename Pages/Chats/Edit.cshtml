@@ -1,0 +1,32 @@
+﻿@page "{id:int}"
+@model MaoSolidaria.Pages.Chats.EditModel
+@{
+    ViewData["Title"] = "Editar Mensagem";
+}
+
+<h2>Editar Mensagem</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Chat.Id" />
+
+    <div class="form-group">
+        <label asp-for="Chat.RemetenteId"></label>
+        <input asp-for="Chat.RemetenteId" class="form-control" />
+        <span asp-validation-for="Chat.RemetenteId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Chat.DestinatarioId"></label>
+        <input asp-for="Chat.DestinatarioId" class="form-control" />
+        <span asp-validation-for="Chat.DestinatarioId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Chat.ConteudoMensagem"></label>
+        <textarea asp-for="Chat.ConteudoMensagem" class="form-control"></textarea>
+        <span asp-validation-for="Chat.ConteudoMensagem" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>

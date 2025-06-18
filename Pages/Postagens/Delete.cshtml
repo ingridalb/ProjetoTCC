@@ -1,0 +1,17 @@
+﻿@page "{id:int}"
+@model MaoSolidaria.Pages.Postagens.DeleteModel
+@{
+    ViewData["Title"] = "Excluir Postagem";
+}
+
+<h2>Você tem certeza que deseja excluir esta postagem?</h2>
+
+<div>
+    <h4>Postagem</h4>
+    <p>@Model.Postagem.Texto</p>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="Postagem.Id" />
+    <button type="submit" class="btn btn-danger">Confirmar exclusão</button>
+</form>

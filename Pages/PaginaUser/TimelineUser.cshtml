@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/Timeline"
 @model MaoSolidaria.Pages.PaginaUser.TimelineUserModel
 @{
 }
@@ -6,10 +6,18 @@
     <div class="row h-100">
         <!-- USUÁRIO -->
         <div id="user-photo-section" class="col-md-2 d-flex flex-column align-items-center justify-content-center mb-0">
-            <img id="perfil-imagem" class="rounded-circle mb-3" width="150px" src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg" alt="Imagem do usuário">
-            <h2 class="text-white text-center" id="user-name">Nome do usuário</h2>
-            <p class="text-white" id="user-email">usuario@gmail.com</p>
-            <p class="text-white" id="user-phone">(XX) XXXXX-XXXX</p>
+            <img id="perfil-imagem"
+                 class="rounded-circle mb-3"
+                 width="150px"
+                 height="150px"
+                 style="object-fit: cover;"
+                 src="@(string.IsNullOrEmpty(Model.UsuarioLogado.CaminhoImagem)
+             ? "/img/avatar-padrao.png"
+             : Model.UsuarioLogado.CaminhoImagem)"
+                 alt="Imagem do usuário" />
+            <h2 class="text-white text-center" id="user-name">@Model.UsuarioLogado.NomeCompleto</h2>
+            <p class="text-white" id="user-email">@Model.UsuarioLogado.Email</p>
+            <p class="text-white" id="user-phone">@Model.UsuarioLogado.PhoneNumber</p>
 
             <a asp-page="/PaginaUser/PerfilUser" class="btn text-black" id="btnGeral">Editar Perfil</a>
         </div>

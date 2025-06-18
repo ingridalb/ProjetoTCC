@@ -8,12 +8,17 @@
 
   <ItemGroup>
     <Compile Remove="Pages\PaginasUser\**" />
+    <Compile Remove="wwwroot\img\NovaPasta1\**" />
     <Content Remove="Pages\PaginasUser\**" />
+    <Content Remove="wwwroot\img\NovaPasta1\**" />
     <EmbeddedResource Remove="Pages\PaginasUser\**" />
+    <EmbeddedResource Remove="wwwroot\img\NovaPasta1\**" />
     <None Remove="Pages\PaginasUser\**" />
+    <None Remove="wwwroot\img\NovaPasta1\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Postagens\_ViewImports.cshtml.cs" />
     <Compile Remove="Pages\Shared\_layoutlogin.cshtml.cs" />
     <Compile Remove="Pages\Shared\_layoutregister.cshtml.cs" />
   </ItemGroup>
@@ -36,6 +41,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Data\" />
   </ItemGroup>
 
 </Project>

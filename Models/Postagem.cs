@@ -9,7 +9,7 @@ namespace MaoSolidaria.Models
         public string? CaminhoImagem { get; set; }
         public DateTime DataCriacao { get; set; }
         public string UsuarioId { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public virtual ApplicationUser Usuario { get; set; }
         public virtual ICollection<Comentario> Comentarios { get; set; }
 
         public Postagem()

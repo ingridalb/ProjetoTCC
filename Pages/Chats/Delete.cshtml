@@ -1,0 +1,22 @@
+﻿@page "{id:int}"
+@model MaoSolidaria.Pages.Chats.DeleteModel
+@{
+    ViewData["Title"] = "Excluir Mensagem";
+}
+
+<h2>Confirmar Exclusão</h2>
+
+<div>
+    <h4>Você tem certeza que deseja excluir esta mensagem?</h4>
+    <div>
+        <strong>De:</strong> @Model.Chat.RemetenteId <br />
+        <strong>Para:</strong> @Model.Chat.DestinatarioId <br />
+        <strong>Mensagem:</strong> @Model.Chat.ConteudoMensagem
+    </div>
+
+    <form method="post">
+        <input type="hidden" asp-for="Chat.Id" />
+        <button type="submit" class="btn btn-danger">Excluir</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
