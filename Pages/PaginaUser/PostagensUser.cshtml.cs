@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Hosting;
 
 namespace MaoSolidaria.Pages.PaginaUser
 {
@@ -54,7 +55,7 @@ namespace MaoSolidaria.Pages.PaginaUser
             if (ImagemPostagem != null && ImagemPostagem.Length > 0)
             {
                 var fileName = Path.GetFileName(ImagemPostagem.FileName);
-                var pasta = Path.Combine("wwwroot", "img", "Postagens");
+                var pasta = Path.Combine("wwwroot", "img", "postagens");
                 Directory.CreateDirectory(pasta);
                 var caminho = Path.Combine(pasta, fileName);
 
@@ -63,7 +64,7 @@ namespace MaoSolidaria.Pages.PaginaUser
                     await ImagemPostagem.CopyToAsync(stream);
                 }
 
-                NovaPostagem.CaminhoImagem = "/img/Postagens/" + fileName;
+                NovaPostagem.CaminhoImagem = "/img/postagens/" + fileName;
             }
 
             var usuario = await _userManager.GetUserAsync(User);
@@ -99,5 +100,52 @@ namespace MaoSolidaria.Pages.PaginaUser
             await _context.SaveChangesAsync();
             return RedirectToPage();
         }
+
+        public async Task<JsonResult> OnGetComentariosAsync(int id)
+        {
+            var comentarios = await _context.Comentarios
+                .Where(c => c.PostagemId == id)
+                .Include(c => c.Usuario)
+                .OrderBy(c => c.DataCriacao)
+                .Select(c => new
+                {
+                    nome = c.Usuario.NomeCompleto,
+                    imagem = c.Usuario.CaminhoImagem,
+                    texto = c.Texto,
+                    data = c.DataCriacao.ToString("dd/MM/yyyy HH:mm")
+                })
+                .ToListAsync();
+
+            return new JsonResult(comentarios);
+        }
+
+        [BindProperty]
+        public string ComentarioTexto { get; set; }
+
+        [BindProperty]
+        public int ComentarioPostagemId { get; set; }
+
+        public async Task<IActionResult> OnPostAdicionarComentarioAsync()
+        {
+            var usuario = await _userManager.GetUserAsync(User);
+            if (usuario == null || string.IsNullOrWhiteSpace(ComentarioTexto))
+            {
+                return new JsonResult(new { sucesso = false, mensagem = "Erro ao comentar." });
+            }
+
+            var novoComentario = new Comentario
+            {
+                Texto = ComentarioTexto,
+                DataCriacao = DateTime.Now,
+                UsuarioId = usuario.Id,
+                PostagemId = ComentarioPostagemId
+            };
+
+            _context.Comentarios.Add(novoComentario);
+            await _context.SaveChangesAsync();
+
+            return new JsonResult(new { sucesso = true });
+        }
+
     }
 }

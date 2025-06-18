@@ -126,6 +126,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\394bfebb-59a0-418e-b198-ea17828c76a2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MaoSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MaoSolidaria</BasePath>
+      <RelativePath>img/postagens/394bfebb-59a0-418e-b198-ea17828c76a2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e3w8rhfs4b</Fingerprint>
+      <Integrity>htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\394bfebb-59a0-418e-b198-ea17828c76a2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\ef472afc-7a99-462c-a789-6876cb2c81aa.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MaoSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MaoSolidaria</BasePath>
+      <RelativePath>img/postagens/ef472afc-7a99-462c-a789-6876cb2c81aa.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t3nu9re5nh</Fingerprint>
+      <Integrity>eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\ef472afc-7a99-462c-a789-6876cb2c81aa.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\Papel de parede Leão SU.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MaoSolidaria</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MaoSolidaria</BasePath>
+      <RelativePath>img/postagens/Papel de parede Leão SU.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e3w8rhfs4b</Fingerprint>
+      <Integrity>htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\postagens\Papel de parede Leão SU.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\usuarios\4d18c5a9-f478-401d-be50-c44bfb2bd8f2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MaoSolidaria</SourceId>

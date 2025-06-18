@@ -8,13 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Pages\PaginasUser\**" />
-    <Compile Remove="wwwroot\img\NovaPasta1\**" />
+    <Compile Remove="wwwroot\img\NovaPasta\**" />
     <Content Remove="Pages\PaginasUser\**" />
-    <Content Remove="wwwroot\img\NovaPasta1\**" />
+    <Content Remove="wwwroot\img\NovaPasta\**" />
     <EmbeddedResource Remove="Pages\PaginasUser\**" />
-    <EmbeddedResource Remove="wwwroot\img\NovaPasta1\**" />
+    <EmbeddedResource Remove="wwwroot\img\NovaPasta\**" />
     <None Remove="Pages\PaginasUser\**" />
-    <None Remove="wwwroot\img\NovaPasta1\**" />
+    <None Remove="wwwroot\img\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +45,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Identity\Data\" />
+    <Folder Include="wwwroot\img\postagens\" />
   </ItemGroup>
 
 </Project>

@@ -3,18 +3,21 @@ using MaoSolidaria.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using MaoSolidaria.Data;
-using MaoSolidaria.Models;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+
 
 namespace MaoSolidaria.Pages.Postagens
 {
     public class EditModel : PageModel
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public EditModel(ApplicationDbContext context)
+        public EditModel(ApplicationDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         [BindProperty]
@@ -32,25 +35,32 @@ namespace MaoSolidaria.Pages.Postagens
             return Page();
         }
 
+        [BindProperty]
+        public IFormFile ImagemPostagem { get; set; }
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid) return Page();
 
-            _context.Attach(Postagem).State = EntityState.Modified;
+            var postagemExistente = await _context.Postagens.FindAsync(Postagem.Id);
+            if (postagemExistente == null) return NotFound();
 
-            try
+            postagemExistente.Texto = Postagem.Texto;
+
+            if (ImagemPostagem is { Length: > 0 })
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Postagens.Any(p => p.Id == Postagem.Id))
-                    return NotFound();
-                else
-                    throw;
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(ImagemPostagem.FileName)}";
+                var pastaDestino = Path.Combine(_env.WebRootPath, "img", "postagens");
+                Directory.CreateDirectory(pastaDestino);
+
+                var caminhoFisico = Path.Combine(pastaDestino, fileName);
+                await using var stream = new FileStream(caminhoFisico, FileMode.Create);
+                await ImagemPostagem.CopyToAsync(stream);
+                postagemExistente.CaminhoImagem = $"/img/postagens/{fileName}";
             }
 
-            return RedirectToPage("Index");
+            await _context.SaveChangesAsync();
+            return RedirectToPage("/PaginaUser/PostagensUser");
         }
     }
 }

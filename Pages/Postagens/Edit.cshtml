@@ -6,7 +6,7 @@
 
 <h2>Editar Postagem</h2>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="Postagem.Id" />
 
     <div class="form-group">
@@ -16,11 +16,10 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="Postagem.CaminhoImagem" class="form-label">URL da Imagem (opcional)</label>
-        <input asp-for="Postagem.CaminhoImagem" class="form-control" />
-        <span asp-validation-for="Postagem.CaminhoImagem" class="text-danger"></span>
+        <label>Imagem da Postagem</label>
+        <input type="file" name="ImagemPostagem" class="form-control" />
     </div>
 
     <button type="submit" class="btn btn-primary mt-2">Salvar</button>
-    <a asp-page="Index" class="btn btn-secondary mt-2">Cancelar</a>
+    <a asp-page="/PaginaUser/PostagensUser" class="btn btn-secondary mt-2">Cancelar</a>
 </form>

@@ -88,11 +88,12 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-body">
-                    <form id="formNovaPostagem">
+                    <form method="post" enctype="multipart/form-data" asp-page-handler="Post">
+
                         <!-- TEXTO -->
                         <div class="mb-3">
                             <label for="postagemTexto" class="form-label">Escreva algo...</label>
-                            <textarea id="postagemTexto" class="form-control" rows="4" placeholder="Compartilhe algo interessante..." required></textarea>
+                            <textarea id="postagemTexto" name="TextoPostagem" class="form-control" rows="4"></textarea>
                         </div>
 
                         <!-- IMAGEM -->
@@ -101,7 +102,7 @@
                                 <i class="bi bi-camera me-2" style="font-size: 1.5rem;"></i>
                                 <span>Escolher Imagem (opcional)</span>
                             </label>
-                            <input type="file" class="form-control" id="imagemPostagem" accept="image/*">
+                            <input type="file" id="imagemPostagem" name="ImagemPostagem" class="form-control" accept="image/*">
                         </div>
 
                         <div class="d-flex justify-content-center gap-3">
@@ -109,6 +110,7 @@
                             <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Cancelar</button>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -178,7 +180,7 @@
 
                         <div class="d-flex justify-content-end mt-2">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn text-black ms-2" id="btnGeral">Enviar</button>
+                            <button type="button" id="btnEnviarComentario" class="btn text-black ms-2">Enviar</button>
                         </div>
                     </div>
                 </div>      
@@ -188,4 +190,74 @@
 
 
 </div>
-    <script src="js/site.js"></script>
+
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+<meta name="RequestVerificationToken"
+      content="@Xsrf.GetAndStoreTokens(HttpContext).RequestToken" />
+
+<script>
+    let postagemIdAtual = 0;
+
+    document.addEventListener("DOMContentLoaded", function () {
+        function carregarComentarios(postagemId) {
+            postagemIdAtual = postagemId;
+            fetch(`/Timeline?handler=Comentarios&id=${postagemId}`)
+                .then(response => response.json())
+                .then(data => {
+                    const lista = document.querySelector(".comments-list");
+                    lista.innerHTML = "";
+                    if (data.length === 0) {
+                        lista.innerHTML = "<p class='text-muted'>Nenhum comentário ainda.</p>";
+                    } else {
+                        data.forEach(c => {
+                            const html = `
+                                <div class="comment mb-3">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <img src="${c.imagem ?? '/img/avatar-padrao.png'}" class="rounded-circle me-3" width="40" height="40" alt="Usuário">
+                                        <div>
+                                            <h4 class="mb-0">${c.nome}</h4>
+                                            <small class="text-muted">${c.data}</small>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text mb-0">${c.texto}</p>
+                                </div>
+                            `;
+                            lista.innerHTML += html;
+                        });
+                    }
+                });
+        }
+
+        window.carregarComentarios = carregarComentarios;
+
+        const btnEnviar = document.getElementById("btnGeral");
+        if (btnEnviar) {
+            btnEnviar.addEventListener("click", function () {
+                const texto = document.getElementById("comment-input").value.trim();
+                if (!texto) return;
+
+                const token = document
+                    .querySelector('meta[name="RequestVerificationToken"]')
+                    .getAttribute('content');
+
+                fetch("/Timeline?handler=AdicionarComentario", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                        "RequestVerificationToken": token
+                    },
+                    body: `ComentarioTexto=${encodeURIComponent(texto)}&ComentarioPostagemId=${postagemIdAtual}`
+                })
+                .then(res => res.json())
+                .then(res => {
+                    if (res.sucesso) {
+                        document.getElementById("comment-input").value = "";
+                        carregarComentarios(postagemIdAtual);
+                    } else {
+                        alert("Erro ao enviar comentário.");
+                    }
+                });
+            });
+        }
+    });
+</script>

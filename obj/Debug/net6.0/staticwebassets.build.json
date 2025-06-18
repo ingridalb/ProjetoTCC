@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yPHC+9HzJEZHAPGqy0Jp3I1yvoZFAKPQkRpLOKX7bm0=",
+  "Hash": "yCEse3IYHYjARcejfJ8LatnN8bixsgJMdWKUJxHZfbg=",
   "Source": "MaoSolidaria",
   "BasePath": "_content/MaoSolidaria",
   "Mode": "Default",
@@ -1464,6 +1464,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png",
+      "SourceId": "MaoSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
+      "BasePath": "_content/MaoSolidaria",
+      "RelativePath": "img/postagens/394bfebb-59a0-418e-b198-ea17828c76a2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3w8rhfs4b",
+      "Integrity": "htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png"
+    },
+    {
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\ef472afc-7a99-462c-a789-6876cb2c81aa.png",
+      "SourceId": "MaoSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
+      "BasePath": "_content/MaoSolidaria",
+      "RelativePath": "img/postagens/ef472afc-7a99-462c-a789-6876cb2c81aa#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t3nu9re5nh",
+      "Integrity": "eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\postagens\\ef472afc-7a99-462c-a789-6876cb2c81aa.png"
+    },
+    {
+      "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\Papel de parede Leão SU.png",
+      "SourceId": "MaoSolidaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\",
+      "BasePath": "_content/MaoSolidaria",
+      "RelativePath": "img/postagens/Papel de parede Leão SU#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3w8rhfs4b",
+      "Integrity": "htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\postagens\\Papel de parede Leão SU.png"
     },
     {
       "Identity": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\4d18c5a9-f478-401d-be50-c44bfb2bd8f2.png",
@@ -5560,6 +5623,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-aBc/n/nO9esvq0e80G57lEYLonvE5dKKUgoozaiVfLM="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/394bfebb-59a0-418e-b198-ea17828c76a2.e3w8rhfs4b.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3w8rhfs4b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/postagens/394bfebb-59a0-418e-b198-ea17828c76a2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/394bfebb-59a0-418e-b198-ea17828c76a2.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/ef472afc-7a99-462c-a789-6876cb2c81aa.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\ef472afc-7a99-462c-a789-6876cb2c81aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:35:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/ef472afc-7a99-462c-a789-6876cb2c81aa.t3nu9re5nh.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\ef472afc-7a99-462c-a789-6876cb2c81aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "371849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:35:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3nu9re5nh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/postagens/ef472afc-7a99-462c-a789-6876cb2c81aa.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eeVQTW/5oHcCgti+8fuYvUN5WKcKjUXfBjtqaBvkbqc="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/Papel de parede Leão SU.e3w8rhfs4b.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\Papel de parede Leão SU.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3w8rhfs4b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/postagens/Papel de parede Leão SU.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04="
+        }
+      ]
+    },
+    {
+      "Route": "img/postagens/Papel de parede Leão SU.png",
+      "AssetFile": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\Papel de parede Leão SU.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 17:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-htx/xVxp76Pwl57SYkzN3bRh1xuVVf2etSfEF9JJt04="
         }
       ]
     },
