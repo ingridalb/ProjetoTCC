@@ -1,4 +1,5 @@
 using MaoSolidaria.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,10 +9,14 @@ namespace MaoSolidaria.Pages.PaginaUser
     public class PerfilUserModel : PageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public PerfilUserModel(UserManager<ApplicationUser> userManager)
+        public PerfilUserModel(
+            UserManager<ApplicationUser> userManager,
+            IWebHostEnvironment webHostEnvironment)
         {
             _userManager = userManager;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [BindProperty]
@@ -47,21 +52,15 @@ namespace MaoSolidaria.Pages.PaginaUser
             // Upload da imagem
             if (ImagemPerfil != null && ImagemPerfil.Length > 0)
             {
-                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(ImagemPerfil.FileName)}";
-                var pastaDestino = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "usuarios");
-                if (!Directory.Exists(pastaDestino))
-                {
-                    Directory.CreateDirectory(pastaDestino);
-                }
-
-                var filePath = Path.Combine(pastaDestino, fileName);
+                var fileName = $"{Guid.NewGuid()}_{ImagemPerfil.FileName}";
+                var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "usuarios", fileName);
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     await ImagemPerfil.CopyToAsync(stream);
                 }
 
-                usuario.CaminhoImagem = $"/img/usuarios/{fileName}";
+                usuario.CaminhoImagem = $"/usuarios/{fileName}";
             }
 
             var result = await _userManager.UpdateAsync(usuario);

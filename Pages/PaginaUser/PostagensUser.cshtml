@@ -40,7 +40,7 @@
             <div class="modal fade" id="editarPostagemModal" tabindex="-1" aria-labelledby="editarPostagemModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <form method="post" asp-page-handler="Editar">
+                        <form method="post" asp-page-handler="Editar" enctype="multipart/form-data">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="editarPostagemModalLabel">Editar Postagem</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
@@ -53,8 +53,9 @@
                                     <textarea id="editar-texto" name="PostagemEditada.Texto" class="form-control" rows="4" required></textarea>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="editar-caminhoImagem" class="form-label">URL da Imagem</label>
-                                    <input type="text" id="editar-caminhoImagem" name="PostagemEditada.CaminhoImagem" class="form-control" />
+                                    <label class="form-label">Nova Imagem (opcional)</label>
+                                    <input type="file" name="ImagemNova" class="form-control" />
+                                    <input type="hidden" name="ImagemAntiga" id="imagem-antiga" />
                                 </div>
                             </div>
 
@@ -190,10 +191,10 @@
 
     document.addEventListener("DOMContentLoaded", function () {
         // Função para preencher modal de edição
-        function preencherModalEditar(id, texto, imagemUrl) {
-            document.getElementById('editar-id').value = id;
-            document.getElementById('editar-texto').value = texto;
-            document.getElementById('editar-caminhoImagem').value = imagemUrl;
+            function preencherModalEditar(id, texto, imagemUrl) {
+        document.getElementById('editar-id').value = id;
+        document.getElementById('editar-texto').value = texto;
+        document.getElementById('imagem-antiga').value = imagemUrl;
         }
         window.preencherModalEditar = preencherModalEditar;
 

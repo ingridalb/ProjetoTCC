@@ -35,7 +35,7 @@ namespace MaoSolidaria.Data
                 .HasOne(c => c.Postagem)
                 .WithMany(p => p.Comentarios)
                 .HasForeignKey(c => c.PostagemId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Comentario>()
                 .HasOne(c => c.Usuario)

@@ -33,12 +33,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\avatar-padrao.png",
+      "PackagePath": "staticwebassets\\img\\avatar-padrao.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\2421cc17-ce0e-4b62-ae28-3ca048527148.png",
+      "PackagePath": "staticwebassets\\img\\postagens\\2421cc17-ce0e-4b62-ae28-3ca048527148.png"
+    },
+    {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png",
       "PackagePath": "staticwebassets\\img\\postagens\\394bfebb-59a0-418e-b198-ea17828c76a2.png"
     },
     {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\Leão e Steven.png",
+      "PackagePath": "staticwebassets\\img\\postagens\\Leão e Steven.png"
+    },
+    {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\Papel de parede Leão SU.png",
       "PackagePath": "staticwebassets\\img\\postagens\\Papel de parede Leão SU.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\e0f0cdf4-8a71-4e28-81a3-8207a32fa9ab.png",
+      "PackagePath": "staticwebassets\\img\\postagens\\e0f0cdf4-8a71-4e28-81a3-8207a32fa9ab.png"
     },
     {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\postagens\\ef472afc-7a99-462c-a789-6876cb2c81aa.png",
@@ -51,6 +67,10 @@
     {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\5b08d367-e652-4e75-ab20-034e79ef628f.png",
       "PackagePath": "staticwebassets\\img\\usuarios\\5b08d367-e652-4e75-ab20-034e79ef628f.png"
+    },
+    {
+      "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\5ddab9e8-a4d0-4ab5-b3f8-cdd805f964b4.png",
+      "PackagePath": "staticwebassets\\img\\usuarios\\5ddab9e8-a4d0-4ab5-b3f8-cdd805f964b4.png"
     },
     {
       "Id": "C:\\Users\\kamil\\Documents\\TCC\\wwwroot\\img\\usuarios\\80fee15e-3846-4687-a187-f9a21f7d17df.png",

@@ -12,9 +12,9 @@
                             <div class="card-body p-5 mb-3"> 
                                 <h2 class="text-uppercase text-center mb-4 uppercaseUser">Crie uma conta</h2>
 
-                            <form id="registerForm" method="post" asp-route-returnUrl="@Model.ReturnUrl">
-                                <input type="hidden" asp-for="ReturnUrl" value="@Model.ReturnUrl ?? "~/" />
-                                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                            <form id="registerForm" method="post" asp-route-returnUrl="@Model.ReturnUrl ?? Url.Content(" ~ /")">
+                                <input type="hidden" name="returnUrl" value="@Model.ReturnUrl ?? Url.Content(" ~ /")" />
+                                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
                                     <div class="form-outline mb-4"> <!--NOME COMPLETO-->
                                         <label asp-for="Input.NomeCompleto" class="form-label">Insira seu nome completo</label>
                                         <input asp-for="Input.NomeCompleto" class="form-control" autocomplete="username" aria-required="true" />

@@ -77,8 +77,12 @@ namespace MaoSolidaria.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
-        public async Task<IActionResult> OnPostAsync([FromQuery] string returnUrl = null)
+        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            ModelState.Remove("returnUrl");
+            ModelState.Remove("ReturnUrl");
+
+            ReturnUrl = Url.IsLocalUrl(returnUrl) ? returnUrl : Url.Content("~/");
             ReturnUrl = returnUrl ?? Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 

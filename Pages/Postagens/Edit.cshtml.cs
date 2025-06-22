@@ -38,6 +38,9 @@ namespace MaoSolidaria.Pages.Postagens
         [BindProperty]
         public IFormFile ImagemPostagem { get; set; }
 
+        [BindProperty]
+        public string ImagemAntiga { get; set; }
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid) return Page();
@@ -57,6 +60,11 @@ namespace MaoSolidaria.Pages.Postagens
                 await using var stream = new FileStream(caminhoFisico, FileMode.Create);
                 await ImagemPostagem.CopyToAsync(stream);
                 postagemExistente.CaminhoImagem = $"/img/postagens/{fileName}";
+            }
+            else
+            {
+                // Nenhuma imagem nova enviada, mantém a imagem antiga
+                postagemExistente.CaminhoImagem = ImagemAntiga;
             }
 
             await _context.SaveChangesAsync();

@@ -35,10 +35,16 @@ namespace MaoSolidaria.Pages.PaginaUser
             if (usuarioLogado == null)
                 return RedirectToPage("/Account/Login");
 
-            // Lista de usuários com quem posso conversar
-            Usuarios = await _context.Users
-                .Where(u => u.Id != usuarioLogado.Id)
-                .ToListAsync();
+            // Lista somente quem já trocou alguma mensagem comigo
+            Usuarios = _context.Chats
+                .Where(c => c.RemetenteId == usuarioLogado.Id || c.DestinatarioId == usuarioLogado.Id)
+                .Include(c => c.Remetente)
+                .Include(c => c.Destinatario)
+                .AsEnumerable()
+                .Select(c => c.RemetenteId == usuarioLogado.Id ? c.Destinatario : c.Remetente)
+                .GroupBy(u => u.Id)
+                .Select(g => g.First())
+                .ToList();
 
             if (!string.IsNullOrEmpty(DestinatarioId))
             {

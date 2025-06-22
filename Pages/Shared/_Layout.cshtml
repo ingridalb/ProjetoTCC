@@ -38,9 +38,11 @@
 
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <!-- BARRA DE PESQUISA -->
-                        <form class="d-flex align-items-center mx-auto search-form" style="width: 40%;">
-                            <input class="form-control search-input" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
-                            <i class="bi bi-search search-icon"></i>
+                        <form method="get" asp-page="/Timeline" class="d-flex align-items-center mx-auto search-form" style="width: 40%;">
+                            <input class="form-control search-input" type="search" name="pesquisa" value="@Context.Request.Query["pesquisa"]" placeholder="Pesquisar..." aria-label="Pesquisar">
+                            <button type="submit" class="btn btn-link p-0 ms-2" title="Buscar">
+                                <i class="bi bi-search search-icon"></i>
+                            </button>
                         </form>
 
                         <!-- LISTAS NAVBAR -->
@@ -54,9 +56,14 @@
                                 </a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link text-white fw-bold text-uppercase d-flex align-items-center" href="/Logout">
+                                <!-- Botão que abre o modal de logout -->
+                                <button type="button"
+                                        class="nav-link btn btn-link text-white fw-bold text-uppercase d-flex align-items-center"
+                                        style="text-decoration: none;"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modalConfirmarLogout">
                                     <i class="bi bi-box-arrow-right me-1"></i> Sair
-                                </a>
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -109,10 +116,30 @@
         </div>
     </footer>
 
+    <!-- Modal de confirmação de logout -->
+    <div class="modal fade" id="modalConfirmarLogout" tabindex="-1" aria-labelledby="modalConfirmarLogoutLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalConfirmarLogoutLabel">Sair da conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    Tem certeza que deseja sair da sua conta?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <form method="post" asp-area="Identity" asp-page="/Account/Logout" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Sim, sair</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="@Url.Content("~/lib/jquery/dist/jquery.min.js")"></script>
     <script src="@Url.Content("~/lib/bootstrap/dist/js/bootstrap.bundle.min.js")"></script>
     <script src="@Url.Content("~/js/site.js")" asp-append-version="true"></script>
-
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

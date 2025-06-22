@@ -1,12 +1,14 @@
 ﻿@page
 @model MaoSolidaria.Pages.PaginaUser.PerfilUserModel
 
-@if (!string.IsNullOrEmpty(Model.Input.CaminhoImagem))
-{
     <div class="mb-3">
-        <img src="@Model.Input.CaminhoImagem" alt="Imagem de Perfil" class="rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" />
+    <img src="@Url.Content(string.IsNullOrEmpty(Model.Input.CaminhoImagem)
+    ? "~/img/avatar-padrao.png"
+    : Model.Input.CaminhoImagem)"
+         alt="Imagem de Perfil"
+         class="rounded-circle"
+         style="width: 150px; height: 150px; object-fit: cover;" />
     </div>
-}
 
 <form method="post" enctype="multipart/form-data">
     <div class="form-group">

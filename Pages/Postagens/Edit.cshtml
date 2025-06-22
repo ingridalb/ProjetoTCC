@@ -8,6 +8,7 @@
 
 <form method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="Postagem.Id" />
+    <input type="hidden" name="ImagemAntiga" value="@Model.Postagem.CaminhoImagem" />
 
     <div class="form-group">
         <label asp-for="Postagem.Texto" class="form-label"></label>
@@ -15,11 +16,21 @@
         <span asp-validation-for="Postagem.Texto" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label>Imagem da Postagem</label>
+    <div class="form-group mt-3">
+        <label class="form-label">Imagem Atual</label><br />
+        <img src="@(string.IsNullOrEmpty(Model.Postagem.CaminhoImagem)
+    ? "/img/avatar-padrao.png"
+    : Model.Postagem.CaminhoImagem)"
+             alt="Imagem da postagem"
+             class="img-thumbnail"
+             style="max-height: 200px;" />
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Nova Imagem (opcional)</label>
         <input type="file" name="ImagemPostagem" class="form-control" />
     </div>
 
-    <button type="submit" class="btn btn-primary mt-2">Salvar</button>
-    <a asp-page="/PaginaUser/PostagensUser" class="btn btn-secondary mt-2">Cancelar</a>
+    <button type="submit" class="btn btn-success mt-3">Salvar</button>
+    <a asp-page="/PaginaUser/PostagensUser" class="btn btn-secondary mt-3">Cancelar</a>
 </form>
