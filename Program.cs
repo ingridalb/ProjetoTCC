@@ -25,6 +25,13 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 
 builder.Services.AddRazorPages();
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5432";
+
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(int.Parse(port));
+});
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
