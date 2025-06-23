@@ -1,0 +1,726 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    overflow: auto; /* Impede scroll no body */
+}
+
+body {
+    background: #5b9350;
+    overflow: auto; /* Impede scroll no body */
+    height: 100%;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex-shrink: 0;
+}
+
+.pb-3 {
+    padding-bottom: 0rem !important;
+}
+
+.row {
+    height: 100%;
+    margin: 0;
+}
+
+/* FOOTER */
+footer {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Garante que o footer fique na parte inferior da tela */
+    background: #cdcdcd;
+    margin-top: auto !important;
+}
+/*NAVBAR*/
+
+.custom-navbar {
+    background-color: #5b9350 !important; /* Escolha a cor que quiser */
+    padding-bottom: 20px;
+}
+
+.navbar-text.mao-solidaria {
+    font-size: 1.5rem; /* Ajuste o tamanho conforme necessário */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+a {
+    color: #000000;
+    font-size: 18px;
+}
+
+    a:hover {
+        color: #448f2a;
+    }
+
+.search-form {
+    gap: 10px; /* Esse é o espaçamento entre ícone e input */
+}
+.search-icon {
+    color: #fff;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="search"] {
+    position: relative;
+    z-index: 1;
+}
+
+    input[type="search"]::-webkit-search-cancel-button {
+        display: none;
+        -webkit-appearance: none;
+    }
+
+    input[type="search"]::-ms-clear {
+        display: none;
+    }
+
+    input[type="search"]::-ms-reveal {
+        display: none;
+    }
+
+    input[type="search"]::-o-clear {
+        display: none;
+    }
+
+/*BOTÕES*/
+#btnGeral {
+    background-color: #7bbd88;
+    border-color: #7bbd88;
+}
+
+    #btnGeral:hover {
+        background-color: #a0c7a8;
+    }
+
+.form-check {
+    font-size: 18px;
+}
+
+#btnTml {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+    #btnTml:hover {
+        background-color: #cacaca;
+        border-color: #cacaca;
+        color: #000;
+    }
+
+@media (min-width: 1400px) {
+    /* Limita o contêiner para 1320px em telas grandes */
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+}
+
+.custom-container {
+    max-width: 90%; /* Defina o valor de largura máxima conforme necessário */
+    margin: 0 auto; /* Para garantir que o contêiner fique centralizado */
+}
+
+/*INDEX TEXTOS*/
+.paragrafo-index {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.custom-img {
+    width: 100%; /* Largura exagerada */
+    height: 100%; /* Altura exagerada */
+    object-fit: cover; /* Mantém a proporção */
+}
+/*TIMELINE*/
+
+#timeline-section {
+    height: calc(100vh - 80px);
+    background-color: #fff;
+    box-sizing: border-box;
+    flex: 1;
+    padding-top: 20px;
+    padding-right: 0;
+}
+
+#main-content {
+    height: calc(100vh - 80px);
+    padding-bottom: 0rem !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+    #main-content.container-fluid {
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+/*TIMELINE POSTAGENS*/
+.timeline-link {
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    color: #007bff; /* Cor azul para os links */
+    font-weight: 500; /* Deixa o texto levemente em negrito */
+    margin: 0 10px; /* Espaço entre os links */
+    font-size: 1.1rem; /* Tamanho de fonte maior */
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+    .timeline-link:hover {
+        color: #0056b3; /* Cor mais escura ao passar o mouse */
+        text-decoration: underline; /* Adiciona o sublinhado no hover */
+    }
+
+/* Personalização de cores para os links de edição e exclusão */
+#edit-post-link {
+    color: #6c757d; /* Cor cinza para editar */
+}
+
+    #edit-post-link:hover {
+        color: #5a6268; /* Cor mais escura para editar */
+    }
+
+#delete-post-link {
+    color: #dc3545; /* Cor vermelha para excluir */
+}
+
+    #delete-post-link:hover {
+        color: #c82333; /* Cor mais escura para excluir */
+    }
+
+#edit-post-link, #delete-post-link, .timeline-link {
+    font-size: 22px;
+}
+
+.modal-postagem {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#postagemTexto {
+    font-size: 1.2rem; /* Texto digitado */
+}
+
+
+    #postagemTexto::placeholder {
+        font-size: 1.2rem;
+    }
+
+/* Mais específica, com classes adicionais */
+.custom-postagem {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.custom-name {
+    color: #000;
+    font-size: 22px;
+}
+
+.custom-text {
+    color: #000;
+    font-size: 20px;
+}
+
+/*TIMELINE COMENTÁRIOS*/
+.comentarios-text {
+    color: #2d2222;
+    font-weight: 500;
+    font-size: 1.17rem;
+}
+
+.modal-comentarios {
+    max-width: 50%;
+}
+
+    .modal-comentarios .modal-content {
+        max-height: 80vh;
+    }
+
+.comentario-nome {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/*MODAL COMENTÁRIOS*/
+.comentario-data {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.comentario-texto {
+    font-size: 1.16rem;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    #user-photo-section {
+        margin-bottom: 20px; /* Dá um espaçamento no fundo para que a timeline não fique colada ao perfil */
+    }
+
+    #timeline-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Barra de rolagem */
+    html::-webkit-scrollbar, body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+        html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+}
+
+/* Ajuste para dispositivos móveis e tablets */
+@media (max-width: 1024px) {
+    /* Seção do usuário */
+    #user-photo-section {
+        display: flex;
+        flex-direction: column; /* Organiza os itens em uma coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        text-align: center; /* Centraliza o texto */
+        margin-right: 15px;
+        margin-bottom: 20px; /* Espaço abaixo da seção */
+        position: relative;
+        top: 0; /* Garante que a seção de usuário fique na parte superior */
+    }
+
+    /* Centraliza a imagem do perfil */
+    #perfil-imagem {
+        width: 150px; /* Tamanho fixo da imagem */
+        height: 150px; /* Tamanho fixo da imagem */
+        margin-bottom: 15px; /* Espaço abaixo da imagem */
+    }
+
+    /* Centraliza o nome do usuário */
+    #user-name {
+        font-size: 1.5rem; /* Tamanho do nome */
+        font-weight: 600; /* Negrito para o nome */
+        margin-top: 10px; /* Espaço acima do nome */
+    }
+
+    /* Centraliza o e-mail e o telefone do usuário */
+    #user-email, #user-phone {
+        font-size: 1.1rem; /* Tamanho da fonte */
+        color: #555; /* Cor mais suave para e-mail e telefone */
+        margin-top: 5px; /* Espaço entre o nome e os dados */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Seção do usuário */
+    #user-photo-section {
+        display: flex;
+        flex-direction: column; /* Organiza os itens em uma coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 20px; /* Espaço abaixo da seção */
+        position: relative;
+        top: 0; /* Garante que a seção de usuário fique na parte superior */
+    }
+
+    /* Centraliza a imagem do perfil */
+    #perfil-imagem {
+        width: 120px; /* Tamanho fixo da imagem para telas menores */
+        height: 120px; /* Tamanho fixo da imagem para telas menores */
+        margin-bottom: 15px; /* Espaço abaixo da imagem */
+    }
+
+    /* Centraliza o nome do usuário */
+    #user-name {
+        font-size: 1.3rem; /* Tamanho do nome */
+        font-weight: 600; /* Negrito para o nome */
+        margin-top: 10px; /* Espaço acima do nome */
+    }
+
+    /* Centraliza o e-mail e o telefone do usuário */
+    #user-email, #user-phone {
+        font-size: 1rem; /* Tamanho da fonte */
+        color: #555; /* Cor mais suave para e-mail e telefone */
+        margin-top: 5px; /* Espaço entre o nome e os dados */
+    }
+
+    /* Centraliza o botão "Editar Perfil" */
+    #btnTml {
+        margin-top: 20px; /* Espaço acima do botão */
+        font-size: 1.1rem; /* Tamanho da fonte */
+        padding: 10px 20px; /* Tamanho do botão */
+        background-color: #007bff; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        border: none; /* Remove borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        cursor: pointer; /* Indica que é clicável */
+    }
+
+        #btnTml:hover {
+            background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+        }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100% !important;
+        padding: 0 15px;
+    }
+}
+
+/*CHAT*/
+
+/* Estilo para a área principal */
+#chat-container {
+    height: calc(98vh - 80px);
+    display: flex;
+}
+
+/* Coluna da Lista de Pessoas */
+.col-pessoas {
+    background-color: #f8f9fa; /* Fundo cinza */
+    height: 100%; /* Para ocupar toda a altura disponível */
+    overflow-y: auto; /* Permite o scroll caso o conteúdo ultrapasse a altura */
+}
+
+/* Coluna do Chat */
+.col-chat {
+    background-color: white;
+    height: 100%; /* Para ocupar toda a altura disponível */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho do Chat */
+.chat-header {
+    padding: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+/* Área de Conversa */
+.chat-box {
+    flex-grow: 1; /* Faz a área de conversa ocupar o restante da altura */
+    overflow-y: auto; /* Permite rolar as mensagens */
+    padding: 15px;
+    padding-bottom: 60px;
+}
+
+/* Estilo das bolhas de mensagens */
+.message-bubble {
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+    #chat-container .col-pessoas {
+        margin-bottom: 15px; /* Espaço extra entre as colunas em dispositivos móveis */
+    }
+
+    #chat-container .col-chat {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .chat-header img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .chat-header span {
+        font-size: 14px;
+    }
+
+    /* Ajusta o tamanho da mensagem para se adaptar melhor em telas pequenas */
+    .message-bubble {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .input-group {
+        width: 100%; /* Garante que o campo de entrada ocupe toda a largura disponível */
+    }
+
+        .input-group input {
+            font-size: 14px;
+        }
+
+        .input-group button {
+            font-size: 14px;
+        }
+}
+
+/*O QUE DOAR PAGE*/
+
+.card {
+    border-radius: 10px; /* Deixa os cards com bordas arredondadas */
+    overflow: hidden; /* Garante que a imagem não ultrapasse as bordas arredondadas */
+    transition: transform 0.3s ease; /* Efeito suave ao passar o mouse */
+    max-width: 600px; /* Limita o tamanho dos cards */
+    margin: 10px; /* Espaçamento entre os cards */
+}
+
+    /* Hover no card (efecto de opacidade) */
+    .card:hover {
+        background-color: #f8f9fa; /* Cor de fundo ao passar o mouse */
+        cursor: pointer; /* Muda o cursor para indicar que o card é clicável */
+        opacity: 0.9; /* Deixa o card levemente transparente */
+    }
+
+/* Altera o comportamento da imagem dentro do card */
+.card-img-top {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: 200px; /* Altura fixa para a imagem (ajustável) */
+    object-fit: cover; /* A imagem se adapta ao tamanho do card sem distorcer */
+}
+
+/* Card-body expande para preencher o restante do card */
+.card-body {
+    flex-grow: 1;
+}
+
+/* Parágrafo com padding nas laterais */
+.paragrafo-doar {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 0 2rem; /* Padding nas laterais */
+}
+
+/* Adiciona título dentro do card */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container-oquedoar .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* MODAL LOGIN E CADASTRO*/
+.modal-custom-width {
+    max-width: 700px; /* Largura máxima do modal */
+}
+
+.modal-content {
+    border-radius: 20px !important; /* Cantos arredondados para o modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.modal-header {
+    background-color: #5c8a6b; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    border-top-left-radius: 8px; /* Bordas arredondadas no cabeçalho */
+    border-top-right-radius: 8px;
+}
+
+    .modal-header .btn-close {
+        color: white; /* Cor do botão de fechar */
+        opacity: 1;
+    }
+
+.modal-body {
+    border-radius: 20px;
+    padding: 2rem; /* Espaçamento interno do corpo do modal */
+    background-color: #ffffff; /* Cor de fundo suave */
+    font-size:20px;
+}
+
+.form-label {
+    font-weight: 600; /* Peso de fonte para os rótulos */
+    color: #333; /* Cor do texto dos rótulos */
+    font-size: 20px;
+}
+
+.form-control {
+    border-radius: 10px !important; /* Bordas arredondadas para os campos de entrada */
+    padding: 0.75rem; /* Espaçamento interno */
+    font-size: 1rem;
+    border: 1px solid #ddd; /* Borda suave */
+    box-shadow: none; /* Remover sombra interna */
+}
+
+    .form-control:focus {
+        border-color: #007bff; /* Cor de borda ao focar */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+    }
+
+.d-grid .btn {
+    border-radius: 4px; /* Botão com bordas arredondadas */
+    font-size: 1.125rem; /* Tamanho de fonte para o botão */
+    padding: 0.75rem;
+}
+
+.d-flex {
+    margin-bottom: 0rem;
+}
+
+.text-center .link-geral {
+    color: #448f2a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .text-center .link-geral:hover {
+        text-decoration: underline;
+    }
+
+.small {
+    font-size: 1rem;
+}
+
+.botaoIndex {
+    margin-bottom: 1rem !important;
+}
+
+/* PERFIL USER*/
+.perfil-container {
+    margin: 0 auto; /* Centraliza o contêiner na tela */
+    padding: 20px; /* Adiciona algum espaço interno */
+    max-width: 800px; /* Limita a largura do contêiner para não ficar muito largo */
+    background-color: white; /* Garante que o fundo seja branco */
+}
+
+#perfil-topo {
+    color: #373535;
+    text-align: center;
+    padding-top: 10px;
+}
+/* Estilo para a imagem de perfil */
+#perfil-imagem {
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    background-color: transparent !important;
+}
+
+/* Estilo para o nome do usuário */
+#perfil-nome {
+    font-size: 24px; /* Define um tamanho maior para o nome */
+    font-weight: bold; /* Garante que o nome tenha peso em negrito */
+    margin-top: 15px; /* Espaço acima do nome */
+    color: #373535;
+}
+
+/* Estilo para o e-mail do usuário */
+#perfil-email {
+    font-size: 16px; /* Tamanho de fonte para o e-mail */
+    color: #373535; /* Cor cinza para o e-mail */
+    margin-top: 5px; /* Espaço acima do e-mail */
+}
+
+/* Estilo para a área de texto centralizada onde ficam a imagem e o nome */
+.perfil-info {
+    text-align: center; /* Alinha o conteúdo ao centro */
+    padding: 0px; /* Adiciona um pouco de padding para dar espaço ao redor */
+}
+
+#btnSalvar {
+    background-color: #b2d3cf;
+    border-color: #b2d3cf;
+}
+
+    #btnSalvar:hover {
+        background-color: #99c4bf
+    }
+
+.card-cad {
+    background-color: #fff
+}
+
+#paginaUser body {
+    color: #333; /* Texto padrão em cinza escuro */
+}
+
+/* Cor do título h2 */
+#paginaUser h2 {
+    color: #4e4e4e; /* Verde para o título */
+}
+
+#paginaUser strong {
+    color: #4e4e4e
+}
+
+#paginaUser input,
+#paginaUser label {
+    color: #4e4e4e; /* Texto preto dentro dos campos e rótulos */
+}
+
+.span-cadastro {
+    color: #4e4e4e;
+}
+
+#user-photo-section {
+    background-color: #2a5f2a;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; /* Garante que nada transborde */
+}
+
+#user-photo {
+    max-width: 200px;
+    height: auto;
+}
+
+/*CHAT CELULAR*/
+
+@media (max-width: 768px) {
+    .col-chat {
+        display: none;
+    }
+
+    .col-pessoas {
+        width: 100%;
+    }
+
+    .chat-ativo .col-chat {
+        display: block;
+        width: 100%;
+    }
+
+    .chat-ativo .col-pessoas {
+        display: none;
+    }
+}

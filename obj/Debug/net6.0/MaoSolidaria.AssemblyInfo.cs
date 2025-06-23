@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaoSolidaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bccbce29b7ca3cdf8c08e05c24e7935adcb8696b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a370a9ff5a7ae7490c716d63ac754c3a0e81cbaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaoSolidaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaoSolidaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
