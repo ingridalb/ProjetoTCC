@@ -4,15 +4,15 @@ WORKDIR /app
 ENV ASPNETCORE_URLS=http://+:$PORT
 EXPOSE 80
 
-# Etapa de build
+# Etapa build
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
-# Copia e restaura as dependências
+# Copia apenas o .csproj e restaura
 COPY *.csproj ./
 RUN dotnet restore
 
-# Copia o restante do código
+# Copia o restante e publica
 COPY . ./
 RUN dotnet publish -c Release -o /app/publish
 
@@ -20,4 +20,6 @@ RUN dotnet publish -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
+
+# Ajuste o nome do DLL abaixo, conforme seu .csproj real
 ENTRYPOINT ["dotnet", "ProjetoTCC.dll"]

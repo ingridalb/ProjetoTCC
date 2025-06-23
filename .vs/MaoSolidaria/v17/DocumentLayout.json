@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kamil\\Documents\\TCC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{219D40EB-BDEC-4CCC-9EB2-0D10BE040791}|MaoSolidaria.csproj|c:\\users\\kamil\\documents\\tcc\\pages\\paginauser\\perfiluser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -226,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -327,13 +327,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kamil\\Documents\\TCC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAIAwwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T01:33:10.471Z",
               "EditorCaption": ""
